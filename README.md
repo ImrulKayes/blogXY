@@ -1,6 +1,10 @@
 ## blogXY
 A machine learning production system to identify gender from bloggers' online activities.
 
+* Collection of data using a crawler which uses Breadth first search (BFS).
+* Feature engineering, hyperparameter tuning, model generation and saving using scikit-learn.
+* Flask api service for handling requsts.
+* Aiflow scheduler for collection of data, update ML models and parameters, and running the Flask api service. This update happens daily.
 
 ## Getting Started
 
