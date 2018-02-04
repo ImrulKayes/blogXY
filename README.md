@@ -9,8 +9,9 @@ A machine learning production system to identify gender from bloggers' online ac
 git clone https://github.com/ImrulKayes/blogXY.git
 ```
 
-2. cd to repository; install required python packages by running bootstrap script
+2. Move into the working directory with cd then install required python packages by running bootstrap script
 ```
+cd blogXY
 ./scripts/bootstrap.sh
 ```
 
