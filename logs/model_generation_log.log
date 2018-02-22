@@ -1,0 +1,1678 @@
+2017-08-31 22:45:22,525 - __main__ - INFO - 0.937074465742
+2017-08-31 22:45:22,526 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-08-31 22:45:22,526 - __main__ - INFO - Pipeline(steps=[('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10de98410>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-08-31 22:45:22,603 - __main__ - INFO - 0.853408210689
+2017-08-31 22:45:22,604 - __main__ - INFO - 0.846838830118
+2017-08-31 22:45:22,609 - __main__ - INFO - [[1599  351]
+ [ 406 2808]]
+2017-09-01 11:21:52,200 - __main__ - INFO - 0.931770619815
+2017-09-01 11:21:52,208 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:21:52,208 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='mean', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x111cbe500>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_fea...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:21:52,267 - __main__ - INFO - 0.851464029475
+2017-09-01 11:21:52,268 - __main__ - INFO - 0.840502597906
+2017-09-01 11:21:52,271 - __main__ - INFO - [[1548  397]
+ [ 369 2843]]
+2017-09-01 11:24:46,524 - __main__ - INFO - Fitting best score
+2017-09-01 11:24:46,524 - __main__ - INFO - 0.936299172994
+2017-09-01 11:24:46,524 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:24:46,524 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='mean', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10e7a0500>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_fea...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:24:46,565 - __main__ - INFO - 0.840798914097
+2017-09-01 11:24:46,566 - __main__ - INFO - 0.830926922498
+2017-09-01 11:24:46,569 - __main__ - INFO - [[1538  407]
+ [ 414 2798]]
+2017-09-01 11:30:46,896 - __main__ - INFO - Started building models
+2017-09-01 11:30:46,896 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:30:57,919 - __main__ - INFO - Fitted best score
+2017-09-01 11:30:57,919 - __main__ - INFO - 0.933692701044
+2017-09-01 11:30:57,919 - __main__ - INFO - Fitted best params
+2017-09-01 11:30:57,919 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:30:57,919 - __main__ - INFO - Fitted best estimator
+2017-09-01 11:30:57,919 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='mean', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x106141578>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_fea...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:30:58,000 - __main__ - INFO - Test data accuracy
+2017-09-01 11:30:58,002 - __main__ - INFO - 0.852239674229
+2017-09-01 11:30:58,002 - __main__ - INFO - Test data ROC
+2017-09-01 11:30:58,003 - __main__ - INFO - 0.841632278698
+2017-09-01 11:30:58,003 - __main__ - INFO - Test data confusion matrix
+2017-09-01 11:30:58,009 - __main__ - INFO - [[1553  392]
+ [ 370 2842]]
+2017-09-01 11:30:58,009 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:30:58,010 - __main__ - INFO - Finished building models
+2017-09-01 11:31:44,421 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:31:44,421 - __main__ - INFO - Started building models
+2017-09-01 11:31:54,642 - __main__ - INFO - Fitted best score
+2017-09-01 11:31:54,642 - __main__ - INFO - 0.935539022929
+2017-09-01 11:31:54,642 - __main__ - INFO - Fitted best params
+2017-09-01 11:31:54,642 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:31:54,642 - __main__ - INFO - Fitted best estimator
+2017-09-01 11:31:54,642 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='mean', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x109401578>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_fea...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:31:54,683 - __main__ - INFO - Test data accuracy
+2017-09-01 11:31:54,684 - __main__ - INFO - 0.851851851852
+2017-09-01 11:31:54,684 - __main__ - INFO - Test data ROC
+2017-09-01 11:31:54,685 - __main__ - INFO - 0.842436380924
+2017-09-01 11:31:54,685 - __main__ - INFO - Test data confusion matrix
+2017-09-01 11:31:54,688 - __main__ - INFO - [[1564  381]
+ [ 383 2829]]
+2017-09-01 11:31:54,689 - __main__ - INFO - Finished building models
+2017-09-01 11:31:54,689 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:32:38,605 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:32:38,607 - __main__ - INFO - Started building models
+2017-09-01 11:32:48,943 - __main__ - INFO - Fitted best score
+2017-09-01 11:32:48,944 - __main__ - INFO - 0.93364145196
+2017-09-01 11:32:48,944 - __main__ - INFO - Fitted best params
+2017-09-01 11:32:48,944 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:32:48,944 - __main__ - INFO - Fitted best estimator
+2017-09-01 11:32:48,944 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='mean', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x108219578>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_fea...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:32:49,006 - __main__ - INFO - Test data accuracy
+2017-09-01 11:32:49,007 - __main__ - INFO - 0.853209230173
+2017-09-01 11:32:49,007 - __main__ - INFO - Test data ROC
+2017-09-01 11:32:49,008 - __main__ - INFO - 0.845249898357
+2017-09-01 11:32:49,008 - __main__ - INFO - Test data confusion matrix
+2017-09-01 11:32:49,011 - __main__ - INFO - [[1581  364]
+ [ 393 2819]]
+2017-09-01 11:32:49,012 - __main__ - INFO - Finished building models
+2017-09-01 11:32:49,012 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:34:06,161 - __main__ - INFO - ------------------------------------------------
+2017-09-01 11:34:06,161 - __main__ - INFO - Started building models
+2017-09-01 11:34:16,370 - __main__ - INFO - Fitted best score
+2017-09-01 11:34:16,370 - __main__ - INFO - 0.928768802753
+2017-09-01 11:34:16,370 - __main__ - INFO - Fitted best params
+2017-09-01 11:34:16,370 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 11:34:16,371 - __main__ - INFO - Fitted best estimator
+2017-09-01 11:34:16,371 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10cef8578>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_f...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 11:34:16,408 - __main__ - INFO - Test data accuracy
+2017-09-01 11:34:16,409 - __main__ - INFO - 0.854372697305
+2017-09-01 11:34:16,409 - __main__ - INFO - Test data ROC
+2017-09-01 11:34:16,410 - __main__ - INFO - 0.845068461137
+2017-09-01 11:34:16,410 - __main__ - INFO - Test data confusion matrix
+2017-09-01 11:34:16,413 - __main__ - INFO - [[1570  375]
+ [ 376 2836]]
+2017-09-01 11:34:16,413 - __main__ - INFO - Finished building models
+2017-09-01 11:34:16,413 - __main__ - INFO - ------------------------------------------------
+2017-09-01 13:29:07,523 - __main__ - INFO - ------------------------------------------------
+2017-09-01 13:29:07,525 - __main__ - INFO - Started building models
+2017-09-01 13:29:17,768 - __main__ - INFO - Fitted best score
+2017-09-01 13:29:17,774 - __main__ - INFO - 0.927182485313
+2017-09-01 13:29:17,774 - __main__ - INFO - Fitted best params
+2017-09-01 13:29:17,774 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-09-01 13:29:17,775 - __main__ - INFO - Fitted best estimator
+2017-09-01 13:29:17,775 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x1133ee578>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_f...imators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 13:29:17,828 - __main__ - INFO - Test data accuracy
+2017-09-01 13:29:17,830 - __main__ - INFO - 0.841962381229
+2017-09-01 13:29:17,830 - __main__ - INFO - Test data ROC
+2017-09-01 13:29:17,831 - __main__ - INFO - 0.835815643138
+2017-09-01 13:29:17,831 - __main__ - INFO - Test data confusion matrix
+2017-09-01 13:29:17,835 - __main__ - INFO - [[1577  368]
+ [ 447 2765]]
+2017-09-01 13:29:17,835 - __main__ - INFO - Finished building models
+2017-09-01 13:29:17,835 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:04:10,593 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:04:10,594 - __main__ - INFO - Started building models
+2017-09-01 15:04:25,069 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:04:25,069 - __main__ - INFO - Started building models
+2017-09-01 15:04:41,748 - __main__ - INFO - Fitted best score
+2017-09-01 15:04:41,748 - __main__ - INFO - 0.957526406462
+2017-09-01 15:04:41,748 - __main__ - INFO - Fitted best params
+2017-09-01 15:04:41,748 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:04:41,748 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:04:41,748 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10ba6a578>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=32, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 15:04:58,285 - __main__ - INFO - Fitted best score
+2017-09-01 15:04:58,285 - __main__ - INFO - 0.946873457702
+2017-09-01 15:04:58,285 - __main__ - INFO - Fitted best params
+2017-09-01 15:04:58,285 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:04:58,285 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:04:58,285 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10ba6a578>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=32, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 15:04:58,407 - __main__ - INFO - Test data accuracy
+2017-09-01 15:04:58,408 - __main__ - INFO - 0.865813457436
+2017-09-01 15:04:58,408 - __main__ - INFO - Test data ROC
+2017-09-01 15:04:58,409 - __main__ - INFO - 0.850703659477
+2017-09-01 15:04:58,410 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:04:58,413 - __main__ - INFO - [[1535  410]
+ [ 282 2930]]
+2017-09-01 15:04:58,413 - __main__ - INFO - Finished building models
+2017-09-01 15:04:58,414 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:19:57,502 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:19:57,503 - __main__ - INFO - Started building models
+2017-09-01 15:20:12,712 - __main__ - INFO - Fitted best score
+2017-09-01 15:20:12,712 - __main__ - INFO - 0.681719103303
+2017-09-01 15:20:12,712 - __main__ - INFO - Fitted best params
+2017-09-01 15:20:12,712 - __main__ - INFO - {'anova__k': 13, 'AdaBoostClassifier__n_estimators': 32}
+2017-09-01 15:20:12,712 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:20:12,712 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x107d3c578>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=32, random_state=None))])
+2017-09-01 15:20:37,216 - __main__ - INFO - Fitted best score
+2017-09-01 15:20:37,221 - __main__ - INFO - 0.755691308591
+2017-09-01 15:20:37,221 - __main__ - INFO - Fitted best params
+2017-09-01 15:20:37,221 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 1.0, 'GradientBoostingClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:20:37,221 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:20:37,221 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x107d3c578>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...s=32, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False))])
+2017-09-01 15:20:53,565 - __main__ - INFO - Fitted best score
+2017-09-01 15:20:53,571 - __main__ - INFO - 0.956970897616
+2017-09-01 15:20:53,571 - __main__ - INFO - Fitted best params
+2017-09-01 15:20:53,571 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:20:53,571 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:20:53,571 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x107d3c578>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=32, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 15:21:09,805 - __main__ - INFO - Fitted best score
+2017-09-01 15:21:09,805 - __main__ - INFO - 0.946218184265
+2017-09-01 15:21:09,806 - __main__ - INFO - Fitted best params
+2017-09-01 15:21:09,806 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:21:09,806 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:21:09,806 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x107d3c578>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=32, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 15:21:09,900 - __main__ - INFO - Test data accuracy
+2017-09-01 15:21:09,901 - __main__ - INFO - 0.864068256738
+2017-09-01 15:21:09,901 - __main__ - INFO - Test data ROC
+2017-09-01 15:21:09,902 - __main__ - INFO - 0.849302663213
+2017-09-01 15:21:09,902 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:21:09,905 - __main__ - INFO - [[1535  410]
+ [ 291 2921]]
+2017-09-01 15:21:09,905 - __main__ - INFO - Finished building models
+2017-09-01 15:21:09,905 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:28:15,564 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:28:15,565 - __main__ - INFO - Started building models
+2017-09-01 15:28:30,156 - __main__ - INFO - Fitted best score
+2017-09-01 15:28:30,156 - __main__ - INFO - 0.679777701482
+2017-09-01 15:28:30,156 - __main__ - INFO - Fitted best params
+2017-09-01 15:28:30,156 - __main__ - INFO - {'anova__k': 13, 'AdaBoostClassifier__n_estimators': 32}
+2017-09-01 15:28:30,156 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:28:30,156 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10f825500>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=32, random_state=None))])
+2017-09-01 15:28:30,172 - __main__ - INFO - Test data accuracy
+2017-09-01 15:28:30,173 - __main__ - INFO - 0.625945317045
+2017-09-01 15:28:30,173 - __main__ - INFO - Test data ROC
+2017-09-01 15:28:30,173 - __main__ - INFO - 0.566678858522
+2017-09-01 15:28:30,174 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:28:30,177 - __main__ - INFO - [[ 633 1312]
+ [ 617 2595]]
+2017-09-01 15:28:53,428 - __main__ - INFO - Fitted best score
+2017-09-01 15:28:53,428 - __main__ - INFO - 0.756794518058
+2017-09-01 15:28:53,428 - __main__ - INFO - Fitted best params
+2017-09-01 15:28:53,428 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 0.8, 'GradientBoostingClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:28:53,428 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:28:53,429 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10f825500>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...s=32, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False))])
+2017-09-01 15:28:53,433 - __main__ - INFO - Test data accuracy
+2017-09-01 15:28:53,434 - __main__ - INFO - 0.659104130308
+2017-09-01 15:28:53,434 - __main__ - INFO - Test data ROC
+2017-09-01 15:28:53,435 - __main__ - INFO - 0.600396008541
+2017-09-01 15:28:53,435 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:28:53,438 - __main__ - INFO - [[ 703 1242]
+ [ 516 2696]]
+2017-09-01 15:29:08,345 - __main__ - INFO - Fitted best score
+2017-09-01 15:29:08,346 - __main__ - INFO - 0.956864758795
+2017-09-01 15:29:08,346 - __main__ - INFO - Fitted best params
+2017-09-01 15:29:08,346 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:29:08,346 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:29:08,346 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10f825500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=32, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 15:29:08,422 - __main__ - INFO - Test data accuracy
+2017-09-01 15:29:08,423 - __main__ - INFO - 0.865813457436
+2017-09-01 15:29:08,423 - __main__ - INFO - Test data ROC
+2017-09-01 15:29:08,424 - __main__ - INFO - 0.852021900521
+2017-09-01 15:29:08,424 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:29:08,428 - __main__ - INFO - [[1548  397]
+ [ 295 2917]]
+2017-09-01 15:29:24,716 - __main__ - INFO - Fitted best score
+2017-09-01 15:29:24,716 - __main__ - INFO - 0.947154897796
+2017-09-01 15:29:24,716 - __main__ - INFO - Fitted best params
+2017-09-01 15:29:24,716 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 15:29:24,716 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:29:24,716 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10f825500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=32, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 15:29:24,770 - __main__ - INFO - Test data accuracy
+2017-09-01 15:29:24,771 - __main__ - INFO - 0.866201279814
+2017-09-01 15:29:24,771 - __main__ - INFO - Test data ROC
+2017-09-01 15:29:24,772 - __main__ - INFO - 0.850406573037
+2017-09-01 15:29:24,772 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:29:24,776 - __main__ - INFO - [[1529  416]
+ [ 274 2938]]
+2017-09-01 15:29:24,829 - __main__ - INFO - Finished building models
+2017-09-01 15:29:24,829 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:32:15,997 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:32:15,997 - __main__ - INFO - Started building models
+2017-09-01 15:33:01,059 - __main__ - INFO - ------------------------------------------------
+2017-09-01 15:33:01,065 - __main__ - INFO - Started building models
+2017-09-01 15:38:54,481 - __main__ - INFO - Fitted best score
+2017-09-01 15:38:54,482 - __main__ - INFO - 0.590090206704
+2017-09-01 15:38:54,482 - __main__ - INFO - Fitted best params
+2017-09-01 15:38:54,482 - __main__ - INFO - {'SVC__gamma': 0.001, 'anova__k': 13, 'SVC__kernel': 'rbf', 'SVC__C': 10}
+2017-09-01 15:38:54,482 - __main__ - INFO - Fitted best estimator
+2017-09-01 15:38:54,482 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x109678500>)), ('SVC', SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+2017-09-01 15:38:57,041 - __main__ - INFO - Test data accuracy
+2017-09-01 15:38:57,044 - __main__ - INFO - 0.554779910801
+2017-09-01 15:38:57,044 - __main__ - INFO - Test data ROC
+2017-09-01 15:38:57,045 - __main__ - INFO - 0.554876555462
+2017-09-01 15:38:57,045 - __main__ - INFO - Test data confusion matrix
+2017-09-01 15:38:57,048 - __main__ - INFO - [[1080  865]
+ [1431 1781]]
+2017-09-01 15:38:57,115 - __main__ - INFO - Finished building models
+2017-09-01 15:38:57,116 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:06:24,543 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:06:24,543 - __main__ - INFO - Started building models
+2017-09-01 16:07:09,932 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:07:09,932 - __main__ - INFO - Started building models
+2017-09-01 16:07:26,457 - __main__ - INFO - Fitted best score
+2017-09-01 16:07:26,457 - __main__ - INFO - 0.957373045513
+2017-09-01 16:07:26,457 - __main__ - INFO - Fitted best params
+2017-09-01 16:07:26,457 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 16:07:26,457 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:07:26,458 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x114078500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=32, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 16:07:26,536 - __main__ - INFO - Test data accuracy
+2017-09-01 16:07:26,536 - __main__ - INFO - 0.867364746946
+2017-09-01 16:07:26,537 - __main__ - INFO - Test data ROC
+2017-09-01 16:07:26,537 - __main__ - INFO - 0.852557408433
+2017-09-01 16:07:26,537 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:07:26,541 - __main__ - INFO - [[1541  404]
+ [ 280 2932]]
+2017-09-01 16:07:42,225 - __main__ - INFO - Fitted best score
+2017-09-01 16:07:42,225 - __main__ - INFO - 0.946059897892
+2017-09-01 16:07:42,225 - __main__ - INFO - Fitted best params
+2017-09-01 16:07:42,225 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 32, 'anova__k': 13}
+2017-09-01 16:07:42,226 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:07:42,226 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x114078500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=32, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 16:07:42,280 - __main__ - INFO - Test data accuracy
+2017-09-01 16:07:42,281 - __main__ - INFO - 0.86678301338
+2017-09-01 16:07:42,281 - __main__ - INFO - Test data ROC
+2017-09-01 16:07:42,285 - __main__ - INFO - 0.850569362321
+2017-09-01 16:07:42,285 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:07:42,289 - __main__ - INFO - [[1526  419]
+ [ 268 2944]]
+2017-09-01 16:07:42,357 - __main__ - INFO - Finished building models
+2017-09-01 16:07:42,357 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:10:38,989 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:10:38,990 - __main__ - INFO - Started building models
+2017-09-01 16:11:10,373 - __main__ - INFO - Fitted best score
+2017-09-01 16:11:10,379 - __main__ - INFO - 0.958219320115
+2017-09-01 16:11:10,379 - __main__ - INFO - Fitted best params
+2017-09-01 16:11:10,379 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 32, 'anova__k': 15}
+2017-09-01 16:11:10,379 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:11:10,379 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x11044b500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=32, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 16:11:10,461 - __main__ - INFO - Test data accuracy
+2017-09-01 16:11:10,462 - __main__ - INFO - 0.869303858833
+2017-09-01 16:11:10,462 - __main__ - INFO - Test data ROC
+2017-09-01 16:11:10,463 - __main__ - INFO - 0.852694426748
+2017-09-01 16:11:10,463 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:11:10,466 - __main__ - INFO - [[1527  418]
+ [ 256 2956]]
+2017-09-01 16:11:39,508 - __main__ - INFO - Fitted best score
+2017-09-01 16:11:39,509 - __main__ - INFO - 0.948086455361
+2017-09-01 16:11:39,509 - __main__ - INFO - Fitted best params
+2017-09-01 16:11:39,509 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 32, 'anova__k': 15}
+2017-09-01 16:11:39,509 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:11:39,509 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x11044b500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=32, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 16:11:39,565 - __main__ - INFO - Test data accuracy
+2017-09-01 16:11:39,566 - __main__ - INFO - 0.868528214078
+2017-09-01 16:11:39,566 - __main__ - INFO - Test data ROC
+2017-09-01 16:11:39,570 - __main__ - INFO - 0.853491405942
+2017-09-01 16:11:39,570 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:11:39,574 - __main__ - INFO - [[1541  404]
+ [ 274 2938]]
+2017-09-01 16:11:39,651 - __main__ - INFO - Finished building models
+2017-09-01 16:11:39,651 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:38:09,383 - __main__ - INFO - ------------------------------------------------
+2017-09-01 16:38:09,384 - __main__ - INFO - Started building models
+2017-09-01 16:39:07,484 - __main__ - INFO - Fitted best score
+2017-09-01 16:39:07,484 - __main__ - INFO - 0.959271115961
+2017-09-01 16:39:07,484 - __main__ - INFO - Fitted best params
+2017-09-01 16:39:07,484 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2017-09-01 16:39:07,484 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:39:07,485 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x111138500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-09-01 16:39:07,735 - __main__ - INFO - Test data accuracy
+2017-09-01 16:39:07,736 - __main__ - INFO - 0.871242970719
+2017-09-01 16:39:07,736 - __main__ - INFO - Test data ROC
+2017-09-01 16:39:07,737 - __main__ - INFO - 0.851918816648
+2017-09-01 16:39:07,737 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:39:07,740 - __main__ - INFO - [[1504  441]
+ [ 223 2989]]
+2017-09-01 16:40:05,096 - __main__ - INFO - Fitted best score
+2017-09-01 16:40:05,096 - __main__ - INFO - 0.953414881295
+2017-09-01 16:40:05,096 - __main__ - INFO - Fitted best params
+2017-09-01 16:40:05,096 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2017-09-01 16:40:05,096 - __main__ - INFO - Fitted best estimator
+2017-09-01 16:40:05,096 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x111138500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...mators=100, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-09-01 16:40:05,288 - __main__ - INFO - Test data accuracy
+2017-09-01 16:40:05,289 - __main__ - INFO - 0.87260034904
+2017-09-01 16:40:05,289 - __main__ - INFO - Test data ROC
+2017-09-01 16:40:05,300 - __main__ - INFO - 0.854326721453
+2017-09-01 16:40:05,300 - __main__ - INFO - Test data confusion matrix
+2017-09-01 16:40:05,304 - __main__ - INFO - [[1517  428]
+ [ 229 2983]]
+2017-09-01 16:40:05,491 - __main__ - INFO - Finished building models
+2017-09-01 16:40:05,491 - __main__ - INFO - ------------------------------------------------
+2017-09-05 18:26:10,458 - __main__ - INFO - ------------------------------------------------
+2017-09-05 18:26:10,459 - __main__ - INFO - Started building models
+2017-09-05 19:15:41,818 - __main__ - INFO - Fitted best score
+2017-09-05 19:15:41,825 - __main__ - INFO - 0.59396316341
+2017-09-05 19:15:41,826 - __main__ - INFO - Fitted best params
+2017-09-05 19:15:41,826 - __main__ - INFO - {'SVC__gamma': 0.001, 'anova__k': 15, 'SVC__kernel': 'rbf', 'SVC__C': 10}
+2017-09-05 19:15:41,826 - __main__ - INFO - Fitted best estimator
+2017-09-05 19:15:41,826 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10dbaa668>)), ('SVC', SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+2017-09-05 19:15:44,308 - __main__ - INFO - Test data accuracy
+2017-09-05 19:15:44,310 - __main__ - INFO - 0.555167733178
+2017-09-05 19:15:44,311 - __main__ - INFO - Test data ROC
+2017-09-05 19:15:44,313 - __main__ - INFO - 0.554173856393
+2017-09-05 19:15:44,313 - __main__ - INFO - Test data confusion matrix
+2017-09-05 19:15:44,317 - __main__ - INFO - [[1070  875]
+ [1419 1793]]
+2017-09-05 19:15:44,332 - __main__ - INFO - Finished building models
+2017-09-05 19:15:44,332 - __main__ - INFO - ------------------------------------------------
+2017-09-13 11:17:58,329 - __main__ - INFO - ------------------------------------------------
+2017-09-13 11:17:58,331 - __main__ - INFO - Started building models
+2017-09-13 11:25:43,688 - __main__ - INFO - ------------------------------------------------
+2017-09-13 11:25:43,688 - __main__ - INFO - Started building models
+2017-09-13 11:58:26,255 - __main__ - INFO - Fitted best score
+2017-09-13 11:58:26,262 - __main__ - INFO - 0.547484083037
+2017-09-13 11:58:26,263 - __main__ - INFO - Fitted best params
+2017-09-13 11:58:26,263 - __main__ - INFO - {'anova__k': 15, 'SVC__kernel': 'linear', 'SVC__C': 1}
+2017-09-13 11:58:26,263 - __main__ - INFO - Fitted best estimator
+2017-09-13 11:58:26,263 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x107182668>)), ('SVC', SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+2017-09-13 11:58:26,866 - __main__ - INFO - Test data accuracy
+2017-09-13 11:58:26,868 - __main__ - INFO - 0.615861935234
+2017-09-13 11:58:26,868 - __main__ - INFO - Test data ROC
+2017-09-13 11:58:26,870 - __main__ - INFO - 0.514271033752
+2017-09-13 11:58:26,870 - __main__ - INFO - Test data confusion matrix
+2017-09-13 11:58:26,874 - __main__ - INFO - [[ 196 1749]
+ [ 232 2980]]
+2017-09-13 11:58:26,892 - __main__ - INFO - Finished building models
+2017-09-13 11:58:26,892 - __main__ - INFO - ------------------------------------------------
+2017-09-13 15:51:31,192 - __main__ - INFO - ------------------------------------------------
+2017-09-13 15:51:31,194 - __main__ - INFO - Started building models
+2017-09-13 15:51:44,839 - __main__ - INFO - Fitted best score
+2017-09-13 15:51:44,840 - __main__ - INFO - 0.650952069975
+2017-09-13 15:51:44,840 - __main__ - INFO - Fitted best params
+2017-09-13 15:51:44,840 - __main__ - INFO - {'XGBClassifier__n_estimators': 20, 'anova__k': 15}
+2017-09-13 15:51:44,840 - __main__ - INFO - Fitted best estimator
+2017-09-13 15:51:44,840 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x106a07668>)), ('XGBClassifier', XGBClassifier(base_score=0.5, colsample_bylevel=1, colsample_bytree=1,
+       gamma=0, learning_ra...logistic', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1))])
+2017-09-13 15:51:44,846 - __main__ - INFO - Test data accuracy
+2017-09-13 15:51:44,846 - __main__ - INFO - 0.622842738026
+2017-09-13 15:51:44,846 - __main__ - INFO - Test data ROC
+2017-09-13 15:51:44,847 - __main__ - INFO - 0.5
+2017-09-13 15:51:44,847 - __main__ - INFO - Test data confusion matrix
+2017-09-13 15:51:44,856 - __main__ - INFO - [[   0 1945]
+ [   0 3212]]
+2017-09-13 15:51:44,869 - __main__ - INFO - Finished building models
+2017-09-13 15:51:44,869 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:23:24,438 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:23:24,441 - __main__ - INFO - Started building models
+2017-09-14 11:40:42,592 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:40:42,592 - __main__ - INFO - Started building models
+2017-09-14 11:40:56,756 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:40:56,756 - __main__ - INFO - Started building models
+2017-09-14 11:42:54,997 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:42:54,998 - __main__ - INFO - Started building models
+2017-09-14 11:43:16,872 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:43:16,872 - __main__ - INFO - Started building models
+2017-09-14 11:43:37,332 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:43:37,332 - __main__ - INFO - Started building models
+2017-09-14 11:43:46,498 - __main__ - INFO - Fitted best score
+2017-09-14 11:43:46,498 - __main__ - INFO - 0.501466187359
+2017-09-14 11:43:46,498 - __main__ - INFO - Fitted best params
+2017-09-14 11:43:46,498 - __main__ - INFO - {'anova__k': 15}
+2017-09-14 11:43:46,498 - __main__ - INFO - Fitted best estimator
+2017-09-14 11:43:46,498 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x108385668>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-09-14 11:43:46,501 - __main__ - INFO - Test data accuracy
+2017-09-14 11:43:46,502 - __main__ - INFO - 0.625557494667
+2017-09-14 11:43:46,502 - __main__ - INFO - Test data ROC
+2017-09-14 11:43:46,503 - __main__ - INFO - 0.503903181194
+2017-09-14 11:43:46,503 - __main__ - INFO - Test data confusion matrix
+2017-09-14 11:43:46,511 - __main__ - INFO - [[  17 1928]
+ [   3 3209]]
+2017-09-14 11:43:46,519 - __main__ - INFO - Finished building models
+2017-09-14 11:43:46,520 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:45:31,801 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:45:31,801 - __main__ - INFO - Started building models
+2017-09-14 11:46:49,631 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:46:49,631 - __main__ - INFO - Started building models
+2017-09-14 11:49:24,656 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:49:24,656 - __main__ - INFO - Started building models
+2017-09-14 11:49:33,981 - __main__ - INFO - Fitted best score
+2017-09-14 11:49:33,981 - __main__ - INFO - 0.498221001993
+2017-09-14 11:49:33,981 - __main__ - INFO - Fitted best params
+2017-09-14 11:49:33,981 - __main__ - INFO - {'SGDClassifier__loss': 'hinge', 'anova__k': 15}
+2017-09-14 11:49:33,981 - __main__ - INFO - Fitted best estimator
+2017-09-14 11:49:33,981 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10f2a7668>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-09-14 11:49:33,984 - __main__ - INFO - Test data accuracy
+2017-09-14 11:49:33,985 - __main__ - INFO - 0.625363583479
+2017-09-14 11:49:33,985 - __main__ - INFO - Test data ROC
+2017-09-14 11:49:33,986 - __main__ - INFO - 0.503646111785
+2017-09-14 11:49:33,986 - __main__ - INFO - Test data confusion matrix
+2017-09-14 11:49:33,989 - __main__ - INFO - [[  16 1929]
+ [   3 3209]]
+2017-09-14 11:49:33,992 - __main__ - INFO - Finished building models
+2017-09-14 11:49:33,992 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:50:05,259 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:50:05,259 - __main__ - INFO - Started building models
+2017-09-14 11:50:14,366 - __main__ - INFO - Fitted best score
+2017-09-14 11:50:14,366 - __main__ - INFO - 0.501147207258
+2017-09-14 11:50:14,366 - __main__ - INFO - Fitted best params
+2017-09-14 11:50:14,366 - __main__ - INFO - {'SGDClassifier__penalty': 'l2', 'SGDClassifier__loss': 'hinge', 'anova__k': 15}
+2017-09-14 11:50:14,366 - __main__ - INFO - Fitted best estimator
+2017-09-14 11:50:14,366 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x112cd0668>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-09-14 11:50:14,370 - __main__ - INFO - Test data accuracy
+2017-09-14 11:50:14,371 - __main__ - INFO - 0.376963350785
+2017-09-14 11:50:14,371 - __main__ - INFO - Test data ROC
+2017-09-14 11:50:14,371 - __main__ - INFO - 0.499742930591
+2017-09-14 11:50:14,372 - __main__ - INFO - Test data confusion matrix
+2017-09-14 11:50:14,375 - __main__ - INFO - [[1944    1]
+ [3212    0]]
+2017-09-14 11:50:14,380 - __main__ - INFO - Finished building models
+2017-09-14 11:50:14,380 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:51:39,570 - __main__ - INFO - ------------------------------------------------
+2017-09-14 11:51:39,570 - __main__ - INFO - Started building models
+2017-09-14 11:52:12,111 - __main__ - INFO - Fitted best score
+2017-09-14 11:52:12,117 - __main__ - INFO - 0.506546342254
+2017-09-14 11:52:12,117 - __main__ - INFO - Fitted best params
+2017-09-14 11:52:12,117 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'log', 'anova__k': 15}
+2017-09-14 11:52:12,117 - __main__ - INFO - Fitted best estimator
+2017-09-14 11:52:12,117 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1149a8668>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='log', n_iter=5, n_jobs=1,
+       penalty='l1', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-09-14 11:52:12,121 - __main__ - INFO - Test data accuracy
+2017-09-14 11:52:12,122 - __main__ - INFO - 0.377157261974
+2017-09-14 11:52:12,122 - __main__ - INFO - Test data ROC
+2017-09-14 11:52:12,123 - __main__ - INFO - 0.498276146328
+2017-09-14 11:52:12,123 - __main__ - INFO - Test data confusion matrix
+2017-09-14 11:52:12,126 - __main__ - INFO - [[1928   17]
+ [3195   17]]
+2017-09-14 11:52:12,134 - __main__ - INFO - Finished building models
+2017-09-14 11:52:12,134 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:11:37,058 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:11:37,060 - __main__ - INFO - Started building models
+2017-11-03 11:12:24,338 - __main__ - INFO - Fitted best score
+2017-11-03 11:12:24,344 - __main__ - INFO - 0.505457713841
+2017-11-03 11:12:24,344 - __main__ - INFO - Fitted best params
+2017-11-03 11:12:24,344 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'log', 'anova__k': 15}
+2017-11-03 11:12:24,344 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:12:24,344 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x11285d500>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='log', n_iter=5, n_jobs=1,
+       penalty='l1', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-11-03 11:12:24,348 - __main__ - INFO - Test data accuracy
+2017-11-03 11:12:24,348 - __main__ - INFO - 0.625557494667
+2017-11-03 11:12:24,349 - __main__ - INFO - Test data ROC
+2017-11-03 11:12:24,350 - __main__ - INFO - 0.50370037488
+2017-11-03 11:12:24,350 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:12:24,354 - __main__ - INFO - [[  15 1930]
+ [   1 3211]]
+2017-11-03 11:12:24,362 - __main__ - INFO - Finished building models
+2017-11-03 11:12:24,362 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:17:37,683 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:17:37,683 - __main__ - INFO - Started building models
+2017-11-03 11:18:22,446 - __main__ - INFO - Fitted best score
+2017-11-03 11:18:22,446 - __main__ - INFO - 0.507913511865
+2017-11-03 11:18:22,446 - __main__ - INFO - Fitted best params
+2017-11-03 11:18:22,447 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'hinge', 'anova__k': 15}
+2017-11-03 11:18:22,447 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:18:22,447 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x106df4500>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=5, n_jobs=1,
+       penalty='l1', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-11-03 11:18:22,450 - __main__ - INFO - Test data accuracy
+2017-11-03 11:18:22,451 - __main__ - INFO - 0.376575528408
+2017-11-03 11:18:22,451 - __main__ - INFO - Test data ROC
+2017-11-03 11:18:22,452 - __main__ - INFO - 0.498011953888
+2017-11-03 11:18:22,452 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:18:22,456 - __main__ - INFO - [[1930   15]
+ [3200   12]]
+2017-11-03 11:18:22,463 - __main__ - INFO - Finished building models
+2017-11-03 11:18:22,463 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:27:01,813 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:27:01,813 - __main__ - INFO - Started building models
+2017-11-03 11:27:37,210 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:27:37,210 - __main__ - INFO - Started building models
+2017-11-03 11:27:55,112 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:27:55,113 - __main__ - INFO - Started building models
+2017-11-03 11:28:51,146 - __main__ - INFO - Fitted best score
+2017-11-03 11:28:51,146 - __main__ - INFO - 0.725815261133
+2017-11-03 11:28:51,146 - __main__ - INFO - Fitted best params
+2017-11-03 11:28:51,146 - __main__ - INFO - {'XGBClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 11:28:51,146 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:28:51,146 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1140f3500>)), ('XGBClassifier', XGBClassifier(base_score=0.5, colsample_bylevel=1, colsample_bytree=1,
+       gamma=0, learning_ra...logistic', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1))])
+2017-11-03 11:28:51,158 - __main__ - INFO - Test data accuracy
+2017-11-03 11:28:51,158 - __main__ - INFO - 0.640682567384
+2017-11-03 11:28:51,158 - __main__ - INFO - Test data ROC
+2017-11-03 11:28:51,159 - __main__ - INFO - 0.557214830632
+2017-11-03 11:28:51,159 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:28:51,164 - __main__ - INFO - [[ 423 1522]
+ [ 331 2881]]
+2017-11-03 11:28:51,169 - __main__ - INFO - Finished building models
+2017-11-03 11:28:51,169 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:31:53,848 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:31:53,848 - __main__ - INFO - Started building models
+2017-11-03 11:38:45,472 - __main__ - INFO - Fitted best score
+2017-11-03 11:38:45,472 - __main__ - INFO - 0.791199691948
+2017-11-03 11:38:45,472 - __main__ - INFO - Fitted best params
+2017-11-03 11:38:45,472 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 1.0, 'GradientBoostingClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 11:38:45,472 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:38:45,472 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10fb82500>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...s=90, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False))])
+2017-11-03 11:38:45,485 - __main__ - INFO - Test data accuracy
+2017-11-03 11:38:45,487 - __main__ - INFO - 0.669963156874
+2017-11-03 11:38:45,487 - __main__ - INFO - Test data ROC
+2017-11-03 11:38:45,488 - __main__ - INFO - 0.626554661664
+2017-11-03 11:38:45,488 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:38:45,493 - __main__ - INFO - [[ 875 1070]
+ [ 632 2580]]
+2017-11-03 11:38:45,528 - __main__ - INFO - Finished building models
+2017-11-03 11:38:45,528 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:39:57,893 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:39:57,893 - __main__ - INFO - Started building models
+2017-11-03 11:40:18,781 - __main__ - INFO - Fitted best score
+2017-11-03 11:40:18,781 - __main__ - INFO - 0.714708121715
+2017-11-03 11:40:18,781 - __main__ - INFO - Fitted best params
+2017-11-03 11:40:18,781 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 100}
+2017-11-03 11:40:18,781 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:40:18,781 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1084f6500>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))])
+2017-11-03 11:40:18,820 - __main__ - INFO - Test data accuracy
+2017-11-03 11:40:18,821 - __main__ - INFO - 0.638549544309
+2017-11-03 11:40:18,821 - __main__ - INFO - Test data ROC
+2017-11-03 11:40:18,822 - __main__ - INFO - 0.572031216486
+2017-11-03 11:40:18,822 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:40:18,825 - __main__ - INFO - [[ 586 1359]
+ [ 505 2707]]
+2017-11-03 11:40:18,868 - __main__ - INFO - Finished building models
+2017-11-03 11:40:18,868 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:43:36,606 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:43:36,606 - __main__ - INFO - Started building models
+2017-11-03 11:43:50,908 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:43:50,908 - __main__ - INFO - Started building models
+2017-11-03 11:45:11,315 - __main__ - INFO - Fitted best score
+2017-11-03 11:45:11,315 - __main__ - INFO - 0.953868634567
+2017-11-03 11:45:11,315 - __main__ - INFO - Fitted best params
+2017-11-03 11:45:11,315 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 11:45:11,315 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:45:11,315 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x11428c500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=90, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-11-03 11:45:11,446 - __main__ - INFO - Test data accuracy
+2017-11-03 11:45:11,447 - __main__ - INFO - 0.872212526663
+2017-11-03 11:45:11,447 - __main__ - INFO - Test data ROC
+2017-11-03 11:45:11,448 - __main__ - INFO - 0.853812582635
+2017-11-03 11:45:11,448 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:45:11,451 - __main__ - INFO - [[1515  430]
+ [ 229 2983]]
+2017-11-03 11:45:11,552 - __main__ - INFO - Finished building models
+2017-11-03 11:45:11,553 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:46:38,523 - __main__ - INFO - ------------------------------------------------
+2017-11-03 11:46:38,523 - __main__ - INFO - Started building models
+2017-11-03 11:47:52,571 - __main__ - INFO - Fitted best score
+2017-11-03 11:47:52,573 - __main__ - INFO - 0.959714107732
+2017-11-03 11:47:52,573 - __main__ - INFO - Fitted best params
+2017-11-03 11:47:52,574 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 11:47:52,574 - __main__ - INFO - Fitted best estimator
+2017-11-03 11:47:52,574 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1068fa500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=90, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-11-03 11:47:52,774 - __main__ - INFO - Test data accuracy
+2017-11-03 11:47:52,775 - __main__ - INFO - 0.870079503587
+2017-11-03 11:47:52,776 - __main__ - INFO - Test data ROC
+2017-11-03 11:47:52,776 - __main__ - INFO - 0.851491834925
+2017-11-03 11:47:52,776 - __main__ - INFO - Test data confusion matrix
+2017-11-03 11:47:52,780 - __main__ - INFO - [[1509  436]
+ [ 234 2978]]
+2017-11-03 11:47:52,957 - __main__ - INFO - Finished building models
+2017-11-03 11:47:52,958 - __main__ - INFO - ------------------------------------------------
+2017-11-03 13:11:39,417 - __main__ - INFO - ------------------------------------------------
+2017-11-03 13:11:39,419 - __main__ - INFO - Started building models
+2017-11-03 13:12:53,371 - __main__ - INFO - Fitted best score
+2017-11-03 13:12:53,377 - __main__ - INFO - 0.959441293572
+2017-11-03 13:12:53,377 - __main__ - INFO - Fitted best params
+2017-11-03 13:12:53,378 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 70, 'anova__k': 15}
+2017-11-03 13:12:53,378 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:12:53,378 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=70, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False))])
+2017-11-03 13:12:53,532 - __main__ - INFO - Test data accuracy
+2017-11-03 13:12:53,533 - __main__ - INFO - 0.872212526663
+2017-11-03 13:12:53,533 - __main__ - INFO - Test data ROC
+2017-11-03 13:12:53,534 - __main__ - INFO - 0.853913985792
+2017-11-03 13:12:53,534 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:12:53,537 - __main__ - INFO - [[1516  429]
+ [ 230 2982]]
+2017-11-03 13:14:07,743 - __main__ - INFO - Fitted best score
+2017-11-03 13:14:07,743 - __main__ - INFO - 0.952911100947
+2017-11-03 13:14:07,743 - __main__ - INFO - Fitted best params
+2017-11-03 13:14:07,743 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 13:14:07,743 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:14:07,743 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...imators=90, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-11-03 13:14:07,877 - __main__ - INFO - Test data accuracy
+2017-11-03 13:14:07,878 - __main__ - INFO - 0.866395191003
+2017-11-03 13:14:07,879 - __main__ - INFO - Test data ROC
+2017-11-03 13:14:07,886 - __main__ - INFO - 0.848432772988
+2017-11-03 13:14:07,886 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:14:07,889 - __main__ - INFO - [[1508  437]
+ [ 252 2960]]
+2017-11-03 13:14:28,687 - __main__ - INFO - Fitted best score
+2017-11-03 13:14:28,687 - __main__ - INFO - 0.714708121715
+2017-11-03 13:14:28,687 - __main__ - INFO - Fitted best params
+2017-11-03 13:14:28,687 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 100}
+2017-11-03 13:14:28,687 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:14:28,687 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))])
+2017-11-03 13:14:28,726 - __main__ - INFO - Test data accuracy
+2017-11-03 13:14:28,727 - __main__ - INFO - 0.638549544309
+2017-11-03 13:14:28,727 - __main__ - INFO - Test data ROC
+2017-11-03 13:14:28,732 - __main__ - INFO - 0.572031216486
+2017-11-03 13:14:28,733 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:14:28,736 - __main__ - INFO - [[ 586 1359]
+ [ 505 2707]]
+2017-11-03 13:47:12,763 - __main__ - INFO - Fitted best score
+2017-11-03 13:47:12,763 - __main__ - INFO - 0.547484083037
+2017-11-03 13:47:12,763 - __main__ - INFO - Fitted best params
+2017-11-03 13:47:12,763 - __main__ - INFO - {'anova__k': 15, 'SVC__kernel': 'linear', 'SVC__C': 1}
+2017-11-03 13:47:12,763 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:47:12,763 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('SVC', SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+2017-11-03 13:47:13,480 - __main__ - INFO - Test data accuracy
+2017-11-03 13:47:13,481 - __main__ - INFO - 0.615861935234
+2017-11-03 13:47:13,481 - __main__ - INFO - Test data ROC
+2017-11-03 13:47:13,482 - __main__ - INFO - 0.514271033752
+2017-11-03 13:47:13,482 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:47:13,486 - __main__ - INFO - [[ 196 1749]
+ [ 232 2980]]
+2017-11-03 13:48:05,866 - __main__ - INFO - Fitted best score
+2017-11-03 13:48:05,873 - __main__ - INFO - 0.506639310711
+2017-11-03 13:48:05,873 - __main__ - INFO - Fitted best params
+2017-11-03 13:48:05,873 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'log', 'anova__k': 15}
+2017-11-03 13:48:05,873 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:48:05,873 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='log', n_iter=5, n_jobs=1,
+       penalty='l1', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False))])
+2017-11-03 13:48:05,877 - __main__ - INFO - Test data accuracy
+2017-11-03 13:48:05,878 - __main__ - INFO - 0.625751405856
+2017-11-03 13:48:05,878 - __main__ - INFO - Test data ROC
+2017-11-03 13:48:05,879 - __main__ - INFO - 0.504160250603
+2017-11-03 13:48:05,880 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:48:05,883 - __main__ - INFO - [[  18 1927]
+ [   3 3209]]
+2017-11-03 13:49:03,363 - __main__ - INFO - Fitted best score
+2017-11-03 13:49:03,364 - __main__ - INFO - 0.725815261133
+2017-11-03 13:49:03,364 - __main__ - INFO - Fitted best params
+2017-11-03 13:49:03,364 - __main__ - INFO - {'XGBClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 13:49:03,364 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:49:03,364 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('XGBClassifier', XGBClassifier(base_score=0.5, colsample_bylevel=1, colsample_bytree=1,
+       gamma=0, learning_ra...logistic', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1))])
+2017-11-03 13:49:03,372 - __main__ - INFO - Test data accuracy
+2017-11-03 13:49:03,373 - __main__ - INFO - 0.640682567384
+2017-11-03 13:49:03,373 - __main__ - INFO - Test data ROC
+2017-11-03 13:49:03,374 - __main__ - INFO - 0.557214830632
+2017-11-03 13:49:03,374 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:49:03,378 - __main__ - INFO - [[ 423 1522]
+ [ 331 2881]]
+2017-11-03 13:53:48,886 - __main__ - INFO - Fitted best score
+2017-11-03 13:53:48,887 - __main__ - INFO - 0.789433404675
+2017-11-03 13:53:48,887 - __main__ - INFO - Fitted best params
+2017-11-03 13:53:48,887 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 0.70000000000000007, 'GradientBoostingClassifier__n_estimators': 90, 'anova__k': 15}
+2017-11-03 13:53:48,887 - __main__ - INFO - Fitted best estimator
+2017-11-03 13:53:48,887 - __main__ - INFO - Pipeline(steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ecac500>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...s=90, presort='auto', random_state=None,
+              subsample=1.0, verbose=0, warm_start=False))])
+2017-11-03 13:53:48,895 - __main__ - INFO - Test data accuracy
+2017-11-03 13:53:48,896 - __main__ - INFO - 0.671514446384
+2017-11-03 13:53:48,896 - __main__ - INFO - Test data ROC
+2017-11-03 13:53:48,897 - __main__ - INFO - 0.619991948573
+2017-11-03 13:53:48,898 - __main__ - INFO - Test data confusion matrix
+2017-11-03 13:53:48,901 - __main__ - INFO - [[ 798 1147]
+ [ 547 2665]]
+2017-11-03 13:53:48,939 - __main__ - INFO - Finished building models
+2017-11-03 13:53:48,939 - __main__ - INFO - ------------------------------------------------
+2018-02-08 09:36:52,780 - __main__ - INFO - ------------------------------------------------
+2018-02-08 09:36:52,783 - __main__ - INFO - Started building models
+2018-02-08 09:40:21,249 - __main__ - INFO - ------------------------------------------------
+2018-02-08 09:40:21,249 - __main__ - INFO - Started building models
+2018-02-08 09:46:42,433 - __main__ - INFO - ------------------------------------------------
+2018-02-08 09:46:42,433 - __main__ - INFO - Started building models
+2018-02-08 09:47:21,538 - __main__ - INFO - ------------------------------------------------
+2018-02-08 09:47:21,538 - __main__ - INFO - Started building models
+2018-02-08 10:38:20,303 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:38:20,305 - __main__ - INFO - Started building models
+2018-02-08 10:43:26,888 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:43:26,888 - __main__ - INFO - Started building models
+2018-02-08 10:46:18,839 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:46:18,839 - __main__ - INFO - Started building models
+2018-02-08 10:47:18,342 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:47:18,343 - __main__ - INFO - Started building models
+2018-02-08 10:48:37,844 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:48:37,844 - __main__ - INFO - Started building models
+2018-02-08 10:56:49,220 - __main__ - INFO - ------------------------------------------------
+2018-02-08 10:56:49,220 - __main__ - INFO - Started building models
+2018-02-14 20:02:06,935 - __main__ - INFO - ------------------------------------------------
+2018-02-14 20:02:06,937 - __main__ - INFO - Started building models
+2018-02-14 20:26:19,248 - __main__ - INFO - ------------------------------------------------
+2018-02-14 20:26:19,248 - __main__ - INFO - Started building models
+2018-02-14 20:27:34,140 - __main__ - INFO - ------------------------------------------------
+2018-02-14 20:27:34,140 - __main__ - INFO - Started building models
+2018-02-14 20:38:07,006 - __main__ - INFO - ------------------------------------------------
+2018-02-14 20:38:07,006 - __main__ - INFO - Started building models
+2018-02-14 21:48:28,690 - __main__ - INFO - ------------------------------------------------
+2018-02-14 21:48:28,692 - __main__ - INFO - Started building models
+2018-02-14 21:49:02,539 - __main__ - INFO - ------------------------------------------------
+2018-02-14 21:49:02,539 - __main__ - INFO - Started building models
+2018-02-14 21:50:30,765 - __main__ - INFO - ------------------------------------------------
+2018-02-14 21:50:30,765 - __main__ - INFO - Started building models
+2018-02-14 22:05:38,160 - __main__ - INFO - ------------------------------------------------
+2018-02-14 22:05:38,161 - __main__ - INFO - Started building models
+2018-02-19 10:13:28,366 - __main__ - INFO - ------------------------------------------------
+2018-02-19 10:13:28,368 - __main__ - INFO - Started building models
+2018-02-19 10:14:19,254 - __main__ - INFO - ------------------------------------------------
+2018-02-19 10:14:19,254 - __main__ - INFO - Started building models
+2018-02-19 10:14:39,167 - __main__ - INFO - ------------------------------------------------
+2018-02-19 10:14:39,167 - __main__ - INFO - Started building models
+2018-02-19 10:34:57,358 - __main__ - INFO - ------------------------------------------------
+2018-02-19 10:34:57,365 - __main__ - INFO - Started building models
+2018-02-19 10:36:40,048 - __main__ - INFO - ------------------------------------------------
+2018-02-19 10:36:40,049 - __main__ - INFO - Started building models
+2018-02-19 11:41:31,828 - __main__ - INFO - ------------------------------------------------
+2018-02-19 11:41:31,834 - __main__ - INFO - Started building models
+2018-02-19 11:44:25,701 - __main__ - INFO - ------------------------------------------------
+2018-02-19 11:44:25,701 - __main__ - INFO - Started building models
+2018-02-19 12:24:39,450 - __main__ - INFO - ------------------------------------------------
+2018-02-19 12:24:39,450 - __main__ - INFO - Started building models
+2018-02-19 12:24:52,832 - __main__ - INFO - ------------------------------------------------
+2018-02-19 12:24:52,832 - __main__ - INFO - Started building models
+2018-02-19 12:25:53,324 - __main__ - INFO - ------------------------------------------------
+2018-02-19 12:25:53,324 - __main__ - INFO - Started building models
+2018-02-19 13:01:24,909 - __main__ - INFO - ------------------------------------------------
+2018-02-19 13:01:24,915 - __main__ - INFO - Started building models
+2018-02-19 13:02:27,035 - __main__ - INFO - ------------------------------------------------
+2018-02-19 13:02:27,035 - __main__ - INFO - Started building models
+2018-02-19 13:05:28,900 - __main__ - INFO - ------------------------------------------------
+2018-02-19 13:05:28,900 - __main__ - INFO - Started building models
+2018-02-20 16:10:41,814 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:10:41,816 - __main__ - INFO - Started building models
+2018-02-20 16:12:15,957 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:12:15,957 - __main__ - INFO - Started building models
+2018-02-20 16:12:25,646 - __main__ - INFO - Fitted best score
+2018-02-20 16:12:25,646 - __main__ - INFO - 0.9518713096250349
+2018-02-20 16:12:25,646 - __main__ - INFO - Fitted best params
+2018-02-20 16:12:25,646 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 10, 'anova__k': 15}
+2018-02-20 16:12:25,646 - __main__ - INFO - Fitted best estimator
+2018-02-20 16:12:25,646 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1112fd2a8>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 16:12:25,667 - __main__ - INFO - Test data accuracy
+2018-02-20 16:12:25,668 - __main__ - INFO - 0.8636804343610627
+2018-02-20 16:12:25,668 - __main__ - INFO - Test data ROC
+2018-02-20 16:12:25,669 - __main__ - INFO - 0.8545685043554536
+2018-02-20 16:12:25,669 - __main__ - INFO - Test data confusion matrix
+2018-02-20 16:12:25,672 - __main__ - INFO - [[1590  355]
+ [ 348 2864]]
+2018-02-20 16:12:25,711 - __main__ - INFO - Finished building models
+2018-02-20 16:12:25,711 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:14:24,754 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:14:24,755 - __main__ - INFO - Started building models
+2018-02-20 16:15:45,718 - __main__ - INFO - Fitted best score
+2018-02-20 16:15:45,718 - __main__ - INFO - 0.959949937698983
+2018-02-20 16:15:45,718 - __main__ - INFO - Fitted best params
+2018-02-20 16:15:45,718 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 80, 'anova__k': 15}
+2018-02-20 16:15:45,718 - __main__ - INFO - Fitted best estimator
+2018-02-20 16:15:45,718 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x113df52a8>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=80, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 16:15:45,868 - __main__ - INFO - Test data accuracy
+2018-02-20 16:15:45,869 - __main__ - INFO - 0.8706612371533837
+2018-02-20 16:15:45,870 - __main__ - INFO - Test data ROC
+2018-02-20 16:15:45,870 - __main__ - INFO - 0.8514518178936954
+2018-02-20 16:15:45,870 - __main__ - INFO - Test data confusion matrix
+2018-02-20 16:15:45,874 - __main__ - INFO - [[1504  441]
+ [ 226 2986]]
+2018-02-20 16:15:46,074 - __main__ - INFO - Finished building models
+2018-02-20 16:15:46,074 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:59:02,891 - __main__ - INFO - ------------------------------------------------
+2018-02-20 16:59:02,892 - __main__ - INFO - Started building models
+2018-02-20 16:59:12,622 - __main__ - INFO - Fitted best score
+2018-02-20 16:59:12,622 - __main__ - INFO - 0.7471155498933276
+2018-02-20 16:59:12,625 - __main__ - INFO - Fitted best params
+2018-02-20 16:59:12,625 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 40, 'anova__k': 15}
+2018-02-20 16:59:12,625 - __main__ - INFO - Fitted best estimator
+2018-02-20 16:59:12,625 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ca296e0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=40, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 16:59:12,633 - __main__ - INFO - Test data accuracy
+2018-02-20 16:59:12,634 - __main__ - INFO - 0.5865209471766849
+2018-02-20 16:59:12,634 - __main__ - INFO - Test data ROC
+2018-02-20 16:59:12,635 - __main__ - INFO - 0.5404154154154155
+2018-02-20 16:59:12,635 - __main__ - INFO - Test data confusion matrix
+2018-02-20 16:59:12,636 - __main__ - INFO - [[ 70 146]
+ [ 81 252]]
+2018-02-20 16:59:12,668 - __main__ - INFO - Finished building models
+2018-02-20 16:59:12,668 - __main__ - INFO - ------------------------------------------------
+2018-02-20 17:01:53,338 - __main__ - INFO - ------------------------------------------------
+2018-02-20 17:01:53,338 - __main__ - INFO - Started building models
+2018-02-20 17:02:03,517 - __main__ - INFO - Fitted best score
+2018-02-20 17:02:03,517 - __main__ - INFO - 0.744226802560136
+2018-02-20 17:02:03,517 - __main__ - INFO - Fitted best params
+2018-02-20 17:02:03,517 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 80, 'anova__k': 15}
+2018-02-20 17:02:03,517 - __main__ - INFO - Fitted best estimator
+2018-02-20 17:02:03,517 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x114ef96e0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=80, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 17:02:03,532 - __main__ - INFO - Test data accuracy
+2018-02-20 17:02:03,533 - __main__ - INFO - 0.5919854280510018
+2018-02-20 17:02:03,533 - __main__ - INFO - Test data ROC
+2018-02-20 17:02:03,534 - __main__ - INFO - 0.5392267267267268
+2018-02-20 17:02:03,534 - __main__ - INFO - Test data confusion matrix
+2018-02-20 17:02:03,535 - __main__ - INFO - [[ 63 153]
+ [ 71 262]]
+2018-02-20 17:02:03,598 - __main__ - INFO - Finished building models
+2018-02-20 17:02:03,598 - __main__ - INFO - ------------------------------------------------
+2018-02-20 17:08:37,699 - __main__ - INFO - ------------------------------------------------
+2018-02-20 17:08:37,699 - __main__ - INFO - Started building models
+2018-02-20 17:08:47,640 - __main__ - INFO - Fitted best score
+2018-02-20 17:08:47,640 - __main__ - INFO - 0.7462128289906068
+2018-02-20 17:08:47,640 - __main__ - INFO - Fitted best params
+2018-02-20 17:08:47,640 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 90, 'anova__k': 15}
+2018-02-20 17:08:47,641 - __main__ - INFO - Fitted best estimator
+2018-02-20 17:08:47,641 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1091b36e0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=90, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 17:08:47,659 - __main__ - INFO - Test data accuracy
+2018-02-20 17:08:47,660 - __main__ - INFO - 0.5974499089253188
+2018-02-20 17:08:47,660 - __main__ - INFO - Test data ROC
+2018-02-20 17:08:47,661 - __main__ - INFO - 0.540477977977978
+2018-02-20 17:08:47,661 - __main__ - INFO - Test data confusion matrix
+2018-02-20 17:08:47,662 - __main__ - INFO - [[ 59 157]
+ [ 64 269]]
+2018-02-20 17:08:47,749 - __main__ - INFO - Finished building models
+2018-02-20 17:08:47,749 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:27:58,334 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:27:58,336 - __main__ - INFO - Started building models
+2018-02-20 21:28:09,360 - __main__ - INFO - Fitted best score
+2018-02-20 21:28:09,361 - __main__ - INFO - 0.7475236347458569
+2018-02-20 21:28:09,361 - __main__ - INFO - Fitted best params
+2018-02-20 21:28:09,361 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 70, 'anova__k': 15}
+2018-02-20 21:28:09,361 - __main__ - INFO - Fitted best estimator
+2018-02-20 21:28:09,361 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1069a67d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=70, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 21:28:09,377 - __main__ - INFO - Test data accuracy
+2018-02-20 21:28:09,378 - __main__ - INFO - 0.6065573770491803
+2018-02-20 21:28:09,378 - __main__ - INFO - Test data ROC
+2018-02-20 21:28:09,379 - __main__ - INFO - 0.554491991991992
+2018-02-20 21:28:09,379 - __main__ - INFO - Test data confusion matrix
+2018-02-20 21:28:09,380 - __main__ - INFO - [[ 67 149]
+ [ 67 266]]
+2018-02-20 21:28:09,483 - __main__ - INFO - Finished building models
+2018-02-20 21:28:09,483 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:28:13,980 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:28:13,980 - __main__ - INFO - Started building models
+2018-02-20 21:28:25,432 - __main__ - INFO - Fitted best score
+2018-02-20 21:28:25,433 - __main__ - INFO - 0.749457487790821
+2018-02-20 21:28:25,433 - __main__ - INFO - Fitted best params
+2018-02-20 21:28:25,433 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 70, 'anova__k': 15}
+2018-02-20 21:28:25,433 - __main__ - INFO - Fitted best estimator
+2018-02-20 21:28:25,433 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10797c7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=70, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 21:28:25,449 - __main__ - INFO - Test data accuracy
+2018-02-20 21:28:25,450 - __main__ - INFO - 0.581056466302368
+2018-02-20 21:28:25,450 - __main__ - INFO - Test data ROC
+2018-02-20 21:28:25,450 - __main__ - INFO - 0.5269644644644644
+2018-02-20 21:28:25,451 - __main__ - INFO - Test data confusion matrix
+2018-02-20 21:28:25,452 - __main__ - INFO - [[ 59 157]
+ [ 73 260]]
+2018-02-20 21:28:25,510 - __main__ - INFO - Finished building models
+2018-02-20 21:28:25,510 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:31:38,824 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:31:38,825 - __main__ - INFO - Started building models
+2018-02-20 21:31:50,641 - __main__ - INFO - Fitted best score
+2018-02-20 21:31:50,641 - __main__ - INFO - 0.7454654149098594
+2018-02-20 21:31:50,641 - __main__ - INFO - Fitted best params
+2018-02-20 21:31:50,641 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 30, 'anova__k': 15}
+2018-02-20 21:31:50,641 - __main__ - INFO - Fitted best estimator
+2018-02-20 21:31:50,641 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1057bb7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=30, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 21:31:50,651 - __main__ - INFO - Test data accuracy
+2018-02-20 21:31:50,653 - __main__ - INFO - 0.5865209471766849
+2018-02-20 21:31:50,653 - __main__ - INFO - Test data ROC
+2018-02-20 21:31:50,654 - __main__ - INFO - 0.5404154154154155
+2018-02-20 21:31:50,654 - __main__ - INFO - Test data confusion matrix
+2018-02-20 21:31:50,656 - __main__ - INFO - [[ 70 146]
+ [ 81 252]]
+2018-02-20 21:31:50,700 - __main__ - INFO - Finished building models
+2018-02-20 21:31:50,700 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:31:54,544 - __main__ - INFO - ------------------------------------------------
+2018-02-20 21:31:54,544 - __main__ - INFO - Started building models
+2018-02-20 21:32:06,177 - __main__ - INFO - Fitted best score
+2018-02-20 21:32:06,178 - __main__ - INFO - 0.7419549852883186
+2018-02-20 21:32:06,178 - __main__ - INFO - Fitted best params
+2018-02-20 21:32:06,178 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 70, 'anova__k': 15}
+2018-02-20 21:32:06,178 - __main__ - INFO - Fitted best estimator
+2018-02-20 21:32:06,178 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x111bed7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=70, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 21:32:06,197 - __main__ - INFO - Test data accuracy
+2018-02-20 21:32:06,198 - __main__ - INFO - 0.604735883424408
+2018-02-20 21:32:06,198 - __main__ - INFO - Test data ROC
+2018-02-20 21:32:06,199 - __main__ - INFO - 0.546483983983984
+2018-02-20 21:32:06,199 - __main__ - INFO - Test data confusion matrix
+2018-02-20 21:32:06,200 - __main__ - INFO - [[ 59 157]
+ [ 60 273]]
+2018-02-20 21:32:06,279 - __main__ - INFO - Finished building models
+2018-02-20 21:32:06,279 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:38:48,730 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:38:48,732 - __main__ - INFO - Started building models
+2018-02-20 22:40:24,162 - __main__ - INFO - Fitted best score
+2018-02-20 22:40:24,162 - __main__ - INFO - 0.9557091641804785
+2018-02-20 22:40:24,162 - __main__ - INFO - Fitted best params
+2018-02-20 22:40:24,163 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 90, 'anova__k': 15}
+2018-02-20 22:40:24,163 - __main__ - INFO - Fitted best estimator
+2018-02-20 22:40:24,163 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x107d7d7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=90, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 22:40:24,354 - __main__ - INFO - Test data accuracy
+2018-02-20 22:40:24,356 - __main__ - INFO - 0.8646586345381526
+2018-02-20 22:40:24,356 - __main__ - INFO - Test data ROC
+2018-02-20 22:40:24,357 - __main__ - INFO - 0.8431326136857807
+2018-02-20 22:40:24,357 - __main__ - INFO - Test data confusion matrix
+2018-02-20 22:40:24,368 - __main__ - INFO - [[1414  454]
+ [ 220 2892]]
+2018-02-20 22:40:24,611 - __main__ - INFO - Finished building models
+2018-02-20 22:40:24,611 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:48:55,542 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:48:55,542 - __main__ - INFO - Started building models
+2018-02-20 22:50:10,287 - __main__ - INFO - Fitted best score
+2018-02-20 22:50:10,287 - __main__ - INFO - 0.9558313418257288
+2018-02-20 22:50:10,287 - __main__ - INFO - Fitted best params
+2018-02-20 22:50:10,287 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 80, 'anova__k': 15}
+2018-02-20 22:50:10,287 - __main__ - INFO - Fitted best estimator
+2018-02-20 22:50:10,287 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1088547d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=80, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 22:50:10,471 - __main__ - INFO - Test data accuracy
+2018-02-20 22:50:10,473 - __main__ - INFO - 0.8646586345381526
+2018-02-20 22:50:10,473 - __main__ - INFO - Test data ROC
+2018-02-20 22:50:10,475 - __main__ - INFO - 0.8440955918376334
+2018-02-20 22:50:10,475 - __main__ - INFO - Test data confusion matrix
+2018-02-20 22:50:10,483 - __main__ - INFO - [[1423  445]
+ [ 229 2883]]
+2018-02-20 22:50:10,699 - __main__ - INFO - Finished building models
+2018-02-20 22:50:10,699 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:50:16,207 - __main__ - INFO - ------------------------------------------------
+2018-02-20 22:50:16,207 - __main__ - INFO - Started building models
+2018-02-20 22:51:31,223 - __main__ - INFO - Fitted best score
+2018-02-20 22:51:31,223 - __main__ - INFO - 0.9556344404297682
+2018-02-20 22:51:31,223 - __main__ - INFO - Fitted best params
+2018-02-20 22:51:31,224 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 90, 'anova__k': 15}
+2018-02-20 22:51:31,224 - __main__ - INFO - Fitted best estimator
+2018-02-20 22:51:31,224 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x111a6f7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=90, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-20 22:51:31,385 - __main__ - INFO - Test data accuracy
+2018-02-20 22:51:31,386 - __main__ - INFO - 0.864859437751004
+2018-02-20 22:51:31,387 - __main__ - INFO - Test data ROC
+2018-02-20 22:51:31,387 - __main__ - INFO - 0.8445772529353803
+2018-02-20 22:51:31,387 - __main__ - INFO - Test data confusion matrix
+2018-02-20 22:51:31,391 - __main__ - INFO - [[1426  442]
+ [ 231 2881]]
+2018-02-20 22:51:31,582 - __main__ - INFO - Finished building models
+2018-02-20 22:51:31,582 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:23:46,996 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:23:46,996 - __main__ - INFO - Started building models
+2018-02-21 16:24:03,891 - __main__ - INFO - Fitted best score
+2018-02-21 16:24:03,892 - __main__ - INFO - 0.9559590522732425
+2018-02-21 16:24:03,893 - __main__ - INFO - Fitted best params
+2018-02-21 16:24:03,893 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:24:03,893 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:24:03,893 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1109c27d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:24:04,071 - __main__ - INFO - Test data accuracy
+2018-02-21 16:24:04,072 - __main__ - INFO - 0.8608433734939759
+2018-02-21 16:24:04,072 - __main__ - INFO - Test data ROC
+2018-02-21 16:24:04,073 - __main__ - INFO - 0.8395449265948487
+2018-02-21 16:24:04,073 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:24:04,082 - __main__ - INFO - [[1409  459]
+ [ 234 2878]]
+2018-02-21 16:24:04,297 - __main__ - INFO - Finished building models
+2018-02-21 16:24:04,297 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:37:38,442 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:37:38,445 - __main__ - INFO - Started building models
+2018-02-21 16:37:39,617 - __main__ - INFO - Fitting best score
+2018-02-21 16:38:18,849 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:38:18,849 - __main__ - INFO - Started building models
+2018-02-21 16:38:19,960 - __main__ - INFO - Fitting best score
+2018-02-21 16:38:35,097 - __main__ - INFO - Fitted best score
+2018-02-21 16:38:35,097 - __main__ - INFO - 0.9558371727032112
+2018-02-21 16:38:35,097 - __main__ - INFO - Fitted best params
+2018-02-21 16:38:35,097 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:38:35,097 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:38:35,097 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1101c07d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:38:35,266 - __main__ - INFO - Test data accuracy
+2018-02-21 16:38:35,267 - __main__ - INFO - 0.8624497991967871
+2018-02-21 16:38:35,267 - __main__ - INFO - Test data ROC
+2018-02-21 16:38:35,268 - __main__ - INFO - 0.8410442687834067
+2018-02-21 16:38:35,268 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:38:35,272 - __main__ - INFO - [[1411  457]
+ [ 228 2884]]
+2018-02-21 16:38:35,272 - __main__ - INFO - Fitting best score
+2018-02-21 16:38:52,147 - __main__ - INFO - Fitted best score
+2018-02-21 16:38:52,147 - __main__ - INFO - 0.9491689162389317
+2018-02-21 16:38:52,147 - __main__ - INFO - Fitted best params
+2018-02-21 16:38:52,147 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:38:52,147 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:38:52,147 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1101c07d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:38:52,242 - __main__ - INFO - Test data accuracy
+2018-02-21 16:38:52,243 - __main__ - INFO - 0.8674698795180723
+2018-02-21 16:38:52,243 - __main__ - INFO - Test data ROC
+2018-02-21 16:38:52,252 - __main__ - INFO - 0.8465589443089678
+2018-02-21 16:38:52,252 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:38:52,256 - __main__ - INFO - [[1425  443]
+ [ 217 2895]]
+2018-02-21 16:38:52,256 - __main__ - INFO - Fitting best score
+2018-02-21 16:39:04,739 - __main__ - INFO - Fitted best score
+2018-02-21 16:39:04,740 - __main__ - INFO - 0.7185552128081084
+2018-02-21 16:39:04,740 - __main__ - INFO - Fitted best params
+2018-02-21 16:39:04,740 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 100}
+2018-02-21 16:39:04,740 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:39:04,740 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1101c07d0>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))])
+2018-02-21 16:39:04,786 - __main__ - INFO - Test data accuracy
+2018-02-21 16:39:04,787 - __main__ - INFO - 0.62429718875502
+2018-02-21 16:39:04,787 - __main__ - INFO - Test data ROC
+2018-02-21 16:39:04,793 - __main__ - INFO - 0.5482018903133825
+2018-02-21 16:39:04,793 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:39:04,796 - __main__ - INFO - [[ 455 1413]
+ [ 458 2654]]
+2018-02-21 16:39:04,796 - __main__ - INFO - Fitting best score
+2018-02-21 16:41:18,523 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:41:18,523 - __main__ - INFO - Started building models
+2018-02-21 16:41:19,710 - __main__ - INFO - Fitting best score
+2018-02-21 16:41:34,797 - __main__ - INFO - Fitted best score
+2018-02-21 16:41:34,797 - __main__ - INFO - 0.9555794082693809
+2018-02-21 16:41:34,797 - __main__ - INFO - Fitted best params
+2018-02-21 16:41:34,797 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:41:34,797 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:41:34,797 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:41:34,960 - __main__ - INFO - Test data accuracy
+2018-02-21 16:41:34,961 - __main__ - INFO - 0.8644578313253012
+2018-02-21 16:41:34,961 - __main__ - INFO - Test data ROC
+2018-02-21 16:41:34,962 - __main__ - INFO - 0.8436139307398864
+2018-02-21 16:41:34,962 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:41:34,965 - __main__ - INFO - [[1420  448]
+ [ 227 2885]]
+2018-02-21 16:41:34,965 - __main__ - INFO - Fitting best score
+2018-02-21 16:41:51,012 - __main__ - INFO - Fitted best score
+2018-02-21 16:41:51,012 - __main__ - INFO - 0.9488640141813394
+2018-02-21 16:41:51,012 - __main__ - INFO - Fitted best params
+2018-02-21 16:41:51,012 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:41:51,012 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:41:51,012 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:41:51,105 - __main__ - INFO - Test data accuracy
+2018-02-21 16:41:51,106 - __main__ - INFO - 0.8624497991967871
+2018-02-21 16:41:51,106 - __main__ - INFO - Test data ROC
+2018-02-21 16:41:51,115 - __main__ - INFO - 0.841472259073119
+2018-02-21 16:41:51,115 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:41:51,118 - __main__ - INFO - [[1415  453]
+ [ 232 2880]]
+2018-02-21 16:41:51,118 - __main__ - INFO - Fitting best score
+2018-02-21 16:42:03,350 - __main__ - INFO - Fitted best score
+2018-02-21 16:42:03,350 - __main__ - INFO - 0.7185552128081084
+2018-02-21 16:42:03,350 - __main__ - INFO - Fitted best params
+2018-02-21 16:42:03,350 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 100}
+2018-02-21 16:42:03,350 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:42:03,350 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))])
+2018-02-21 16:42:03,387 - __main__ - INFO - Test data accuracy
+2018-02-21 16:42:03,388 - __main__ - INFO - 0.62429718875502
+2018-02-21 16:42:03,388 - __main__ - INFO - Test data ROC
+2018-02-21 16:42:03,394 - __main__ - INFO - 0.5482018903133825
+2018-02-21 16:42:03,394 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:42:03,397 - __main__ - INFO - [[ 455 1413]
+ [ 458 2654]]
+2018-02-21 16:42:03,397 - __main__ - INFO - Fitting best score
+2018-02-21 16:42:47,155 - __main__ - INFO - Fitted best score
+2018-02-21 16:42:47,155 - __main__ - INFO - 0.5206465336997878
+2018-02-21 16:42:47,155 - __main__ - INFO - Fitted best params
+2018-02-21 16:42:47,155 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'hinge', 'anova__k': 15}
+2018-02-21 16:42:47,155 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:42:47,155 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_in...='l1', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False))])
+2018-02-21 16:42:47,159 - __main__ - INFO - Test data accuracy
+2018-02-21 16:42:47,160 - __main__ - INFO - 0.6261044176706827
+2018-02-21 16:42:47,160 - __main__ - INFO - Test data ROC
+2018-02-21 16:42:47,162 - __main__ - INFO - 0.5025689738691974
+2018-02-21 16:42:47,162 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:42:47,166 - __main__ - INFO - [[  15 1853]
+ [   9 3103]]
+2018-02-21 16:42:47,166 - __main__ - INFO - Fitting best score
+2018-02-21 16:42:57,042 - __main__ - INFO - Fitted best score
+2018-02-21 16:42:57,042 - __main__ - INFO - 0.7279546950078449
+2018-02-21 16:42:57,043 - __main__ - INFO - Fitted best params
+2018-02-21 16:42:57,043 - __main__ - INFO - {'XGBClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:42:57,043 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:42:57,043 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('XGBClassifier', XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, ga...
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1))])
+2018-02-21 16:42:57,060 - __main__ - INFO - Test data accuracy
+2018-02-21 16:42:57,061 - __main__ - INFO - 0.6347389558232932
+2018-02-21 16:42:57,061 - __main__ - INFO - Test data ROC
+2018-02-21 16:42:57,063 - __main__ - INFO - 0.5459638864270655
+2018-02-21 16:42:57,063 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:42:57,067 - __main__ - INFO - [[ 356 1512]
+ [ 307 2805]]
+2018-02-21 16:42:57,067 - __main__ - INFO - Fitting best score
+2018-02-21 16:43:37,989 - __main__ - INFO - Fitted best score
+2018-02-21 16:43:37,989 - __main__ - INFO - 0.7972454837156222
+2018-02-21 16:43:37,989 - __main__ - INFO - Fitted best params
+2018-02-21 16:43:37,989 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 0.9000000000000001, 'GradientBoostingClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:43:37,989 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:43:37,989 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10e66f7d0>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...      presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False))])
+2018-02-21 16:43:37,997 - __main__ - INFO - Test data accuracy
+2018-02-21 16:43:37,998 - __main__ - INFO - 0.6680722891566265
+2018-02-21 16:43:37,998 - __main__ - INFO - Test data ROC
+2018-02-21 16:43:37,999 - __main__ - INFO - 0.618857788872803
+2018-02-21 16:43:37,999 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:43:38,002 - __main__ - INFO - [[ 788 1080]
+ [ 573 2539]]
+2018-02-21 16:43:38,042 - __main__ - INFO - Finished building models
+2018-02-21 16:43:38,042 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:54:03,272 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:54:03,272 - __main__ - INFO - Started building models
+2018-02-21 16:54:04,470 - __main__ - INFO - Fitting best score
+2018-02-21 16:54:19,722 - __main__ - INFO - Fitted best score
+2018-02-21 16:54:19,723 - __main__ - INFO - 0.9559576488178232
+2018-02-21 16:54:19,723 - __main__ - INFO - Fitted best params
+2018-02-21 16:54:19,723 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:54:19,723 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:54:19,723 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10639c7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:54:19,888 - __main__ - INFO - Test data accuracy
+2018-02-21 16:54:19,889 - __main__ - INFO - 0.8664658634538153
+2018-02-21 16:54:19,889 - __main__ - INFO - Test data ROC
+2018-02-21 16:54:19,893 - __main__ - INFO - 0.8460765951239383
+2018-02-21 16:54:19,893 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:54:19,897 - __main__ - INFO - [[1428  440]
+ [ 225 2887]]
+2018-02-21 16:54:19,897 - __main__ - INFO - Fitting best score
+2018-02-21 16:54:37,068 - __main__ - INFO - Fitted best score
+2018-02-21 16:54:37,069 - __main__ - INFO - 0.9485419235907239
+2018-02-21 16:54:37,069 - __main__ - INFO - Fitted best params
+2018-02-21 16:54:37,069 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:54:37,069 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:54:37,069 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10639c7d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:54:37,198 - __main__ - INFO - Test data accuracy
+2018-02-21 16:54:37,200 - __main__ - INFO - 0.8678714859437751
+2018-02-21 16:54:37,200 - __main__ - INFO - Test data ROC
+2018-02-21 16:54:37,217 - __main__ - INFO - 0.8472012737871774
+2018-02-21 16:54:37,217 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:54:37,221 - __main__ - INFO - [[1428  440]
+ [ 218 2894]]
+2018-02-21 16:54:37,221 - __main__ - INFO - Best model stats
+2018-02-21 16:54:37,221 - __main__ - INFO - 0.8472012737871774
+2018-02-21 16:54:37,221 - __main__ - INFO - [[1428  440]
+ [ 218 2894]]
+2018-02-21 16:54:37,222 - __main__ - INFO - {'RandomForestClassifier__n_estimators': [100], 'anova__k': [15]}
+2018-02-21 16:54:37,222 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=10, score_func=<function mutual_info_classif at 0x10639c7d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:54:37,368 - __main__ - INFO - Finished building models
+2018-02-21 16:54:37,368 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:57:08,064 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:57:08,064 - __main__ - INFO - Started building models
+2018-02-21 16:57:09,286 - __main__ - INFO - Fitting best score
+2018-02-21 16:57:25,993 - __main__ - INFO - Fitted best score
+2018-02-21 16:57:25,994 - __main__ - INFO - 0.955837536983217
+2018-02-21 16:57:25,994 - __main__ - INFO - Fitted best params
+2018-02-21 16:57:25,994 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:57:25,994 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:57:25,994 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x112b19848>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:57:26,162 - __main__ - INFO - Test data accuracy
+2018-02-21 16:57:26,163 - __main__ - INFO - 0.864859437751004
+2018-02-21 16:57:26,163 - __main__ - INFO - Test data ROC
+2018-02-21 16:57:26,167 - __main__ - INFO - 0.8444702553629523
+2018-02-21 16:57:26,167 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:57:26,170 - __main__ - INFO - [[1425  443]
+ [ 230 2882]]
+2018-02-21 16:57:26,170 - __main__ - INFO - Fitting best score
+2018-02-21 16:57:43,121 - __main__ - INFO - Fitted best score
+2018-02-21 16:57:43,121 - __main__ - INFO - 0.9499480185340573
+2018-02-21 16:57:43,122 - __main__ - INFO - Fitted best params
+2018-02-21 16:57:43,122 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:57:43,122 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:57:43,122 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x112b19848>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:57:43,226 - __main__ - INFO - Test data accuracy
+2018-02-21 16:57:43,227 - __main__ - INFO - 0.8688755020080321
+2018-02-21 16:57:43,227 - __main__ - INFO - Test data ROC
+2018-02-21 16:57:43,240 - __main__ - INFO - 0.8492885865586278
+2018-02-21 16:57:43,240 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:57:43,243 - __main__ - INFO - [[1440  428]
+ [ 225 2887]]
+2018-02-21 16:57:43,243 - __main__ - INFO - Best model stats
+2018-02-21 16:57:43,243 - __main__ - INFO - accuracy 0.849288586559
+2018-02-21 16:57:43,243 - __main__ - INFO - Confusion martix
+2018-02-21 16:57:43,243 - __main__ - INFO - [[1440  428]
+ [ 225 2887]]
+2018-02-21 16:57:43,244 - __main__ - INFO - Model parameter
+2018-02-21 16:57:43,244 - __main__ - INFO - {'RandomForestClassifier__n_estimators': [100], 'anova__k': [15]}
+2018-02-21 16:57:43,244 - __main__ - INFO - Pipeline
+2018-02-21 16:57:43,244 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=10, score_func=<function mutual_info_classif at 0x112b19848>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 16:57:43,390 - __main__ - INFO - Finished building models
+2018-02-21 16:57:43,390 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:59:39,925 - __main__ - INFO - ------------------------------------------------
+2018-02-21 16:59:39,926 - __main__ - INFO - Started building models
+2018-02-21 16:59:41,081 - __main__ - INFO - Fitting best score
+2018-02-21 16:59:56,112 - __main__ - INFO - Fitted best score
+2018-02-21 16:59:56,113 - __main__ - INFO - 0.9552924279766558
+2018-02-21 16:59:56,113 - __main__ - INFO - Fitted best params
+2018-02-21 16:59:56,113 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 16:59:56,113 - __main__ - INFO - Fitted best estimator
+2018-02-21 16:59:56,113 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...imators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 16:59:56,282 - __main__ - INFO - Test data accuracy
+2018-02-21 16:59:56,283 - __main__ - INFO - 0.8642570281124498
+2018-02-21 16:59:56,283 - __main__ - INFO - Test data ROC
+2018-02-21 16:59:56,287 - __main__ - INFO - 0.8423832866351431
+2018-02-21 16:59:56,287 - __main__ - INFO - Test data confusion matrix
+2018-02-21 16:59:56,290 - __main__ - INFO - [[1410  458]
+ [ 218 2894]]
+2018-02-21 16:59:56,290 - __main__ - INFO - Fitting best score
+2018-02-21 17:00:12,733 - __main__ - INFO - Fitted best score
+2018-02-21 17:00:12,734 - __main__ - INFO - 0.9492314976506261
+2018-02-21 17:00:12,734 - __main__ - INFO - Fitted best params
+2018-02-21 17:00:12,734 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 17:00:12,734 - __main__ - INFO - Fitted best estimator
+2018-02-21 17:00:12,734 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 17:00:12,831 - __main__ - INFO - Test data accuracy
+2018-02-21 17:00:12,831 - __main__ - INFO - 0.8640562248995984
+2018-02-21 17:00:12,831 - __main__ - INFO - Test data ROC
+2018-02-21 17:00:12,832 - __main__ - INFO - 0.8421156206822523
+2018-02-21 17:00:12,832 - __main__ - INFO - Test data confusion matrix
+2018-02-21 17:00:12,835 - __main__ - INFO - [[1409  459]
+ [ 218 2894]]
+2018-02-21 17:00:12,836 - __main__ - INFO - Fitting best score
+2018-02-21 17:00:25,271 - __main__ - INFO - Fitted best score
+2018-02-21 17:00:25,271 - __main__ - INFO - 0.7185552128081084
+2018-02-21 17:00:25,271 - __main__ - INFO - Fitted best params
+2018-02-21 17:00:25,271 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 100}
+2018-02-21 17:00:25,271 - __main__ - INFO - Fitted best estimator
+2018-02-21 17:00:25,271 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None))])
+2018-02-21 17:00:25,309 - __main__ - INFO - Test data accuracy
+2018-02-21 17:00:25,310 - __main__ - INFO - 0.62429718875502
+2018-02-21 17:00:25,310 - __main__ - INFO - Test data ROC
+2018-02-21 17:00:25,311 - __main__ - INFO - 0.5482018903133825
+2018-02-21 17:00:25,311 - __main__ - INFO - Test data confusion matrix
+2018-02-21 17:00:25,314 - __main__ - INFO - [[ 455 1413]
+ [ 458 2654]]
+2018-02-21 17:00:25,314 - __main__ - INFO - Fitting best score
+2018-02-21 17:01:09,761 - __main__ - INFO - Fitted best score
+2018-02-21 17:01:09,761 - __main__ - INFO - 0.5073824040567104
+2018-02-21 17:01:09,761 - __main__ - INFO - Fitted best params
+2018-02-21 17:01:09,762 - __main__ - INFO - {'SGDClassifier__penalty': 'l2', 'SGDClassifier__loss': 'modified_huber', 'anova__k': 15}
+2018-02-21 17:01:09,762 - __main__ - INFO - Fitted best estimator
+2018-02-21 17:01:09,762 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_in...='l2', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False))])
+2018-02-21 17:01:09,765 - __main__ - INFO - Test data accuracy
+2018-02-21 17:01:09,766 - __main__ - INFO - 0.6253012048192771
+2018-02-21 17:01:09,766 - __main__ - INFO - Test data ROC
+2018-02-21 17:01:09,767 - __main__ - INFO - 0.5006423294782096
+2018-02-21 17:01:09,767 - __main__ - INFO - Test data confusion matrix
+2018-02-21 17:01:09,770 - __main__ - INFO - [[   3 1865]
+ [   1 3111]]
+2018-02-21 17:01:09,770 - __main__ - INFO - Fitting best score
+2018-02-21 17:01:20,076 - __main__ - INFO - Fitted best score
+2018-02-21 17:01:20,076 - __main__ - INFO - 0.7279546950078449
+2018-02-21 17:01:20,076 - __main__ - INFO - Fitted best params
+2018-02-21 17:01:20,076 - __main__ - INFO - {'XGBClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 17:01:20,077 - __main__ - INFO - Fitted best estimator
+2018-02-21 17:01:20,077 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('XGBClassifier', XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, ga...
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1))])
+2018-02-21 17:01:20,095 - __main__ - INFO - Test data accuracy
+2018-02-21 17:01:20,097 - __main__ - INFO - 0.6347389558232932
+2018-02-21 17:01:20,097 - __main__ - INFO - Test data ROC
+2018-02-21 17:01:20,099 - __main__ - INFO - 0.5459638864270655
+2018-02-21 17:01:20,099 - __main__ - INFO - Test data confusion matrix
+2018-02-21 17:01:20,103 - __main__ - INFO - [[ 356 1512]
+ [ 307 2805]]
+2018-02-21 17:01:20,104 - __main__ - INFO - Fitting best score
+2018-02-21 17:02:02,131 - __main__ - INFO - Fitted best score
+2018-02-21 17:02:02,131 - __main__ - INFO - 0.7971978310223072
+2018-02-21 17:02:02,131 - __main__ - INFO - Fitted best params
+2018-02-21 17:02:02,131 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 0.9000000000000001, 'GradientBoostingClassifier__n_estimators': 100, 'anova__k': 15}
+2018-02-21 17:02:02,132 - __main__ - INFO - Fitted best estimator
+2018-02-21 17:02:02,132 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10737e848>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...      presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False))])
+2018-02-21 17:02:02,139 - __main__ - INFO - Test data accuracy
+2018-02-21 17:02:02,140 - __main__ - INFO - 0.6680722891566265
+2018-02-21 17:02:02,140 - __main__ - INFO - Test data ROC
+2018-02-21 17:02:02,141 - __main__ - INFO - 0.618857788872803
+2018-02-21 17:02:02,141 - __main__ - INFO - Test data confusion matrix
+2018-02-21 17:02:02,144 - __main__ - INFO - [[ 788 1080]
+ [ 573 2539]]
+2018-02-21 17:02:02,145 - __main__ - INFO - Best model stats
+2018-02-21 17:02:02,145 - __main__ - INFO - accuracy 0.842383286635
+2018-02-21 17:02:02,145 - __main__ - INFO - Confusion martix
+2018-02-21 17:02:02,145 - __main__ - INFO - [[1410  458]
+ [ 218 2894]]
+2018-02-21 17:02:02,145 - __main__ - INFO - Model parameter
+2018-02-21 17:02:02,145 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': [100], 'anova__k': [15]}
+2018-02-21 17:02:02,145 - __main__ - INFO - Pipeline
+2018-02-21 17:02:02,145 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=10, score_func=<function mutual_info_classif at 0x10737e848>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=10, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 17:02:02,376 - __main__ - INFO - Finished building models
+2018-02-21 17:02:02,376 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:29:07,255 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:29:07,257 - __main__ - INFO - Started building models
+2018-02-21 20:29:12,906 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:29:12,906 - __main__ - INFO - Started building models
+2018-02-21 20:29:20,334 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:29:20,334 - __main__ - INFO - Started building models
+2018-02-21 20:31:14,993 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:31:14,993 - __main__ - INFO - Started building models
+2018-02-21 20:32:35,311 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:32:35,311 - __main__ - INFO - Started building models
+2018-02-21 20:32:36,655 - __main__ - INFO - Fitting best score
+2018-02-21 20:35:02,250 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:35:02,250 - __main__ - INFO - Started building models
+2018-02-21 20:35:03,647 - __main__ - INFO - Fitting best score
+2018-02-21 20:36:17,671 - __main__ - INFO - Fitted best score
+2018-02-21 20:36:17,672 - __main__ - INFO - 0.9558362005931854
+2018-02-21 20:36:17,677 - __main__ - INFO - Fitted best params
+2018-02-21 20:36:17,678 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 80, 'anova__k': 15}
+2018-02-21 20:36:17,678 - __main__ - INFO - Fitted best estimator
+2018-02-21 20:36:17,678 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ab7c7d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=80, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 20:36:17,867 - __main__ - INFO - Test data accuracy
+2018-02-21 20:36:17,869 - __main__ - INFO - 0.8642570281124498
+2018-02-21 20:36:17,869 - __main__ - INFO - Test data ROC
+2018-02-21 20:36:17,874 - __main__ - INFO - 0.8438812526491359
+2018-02-21 20:36:17,875 - __main__ - INFO - Test data confusion matrix
+2018-02-21 20:36:17,880 - __main__ - INFO - [[1424  444]
+ [ 232 2880]]
+2018-02-21 20:36:17,880 - __main__ - INFO - Fitting best score
+2018-02-21 20:37:32,101 - __main__ - INFO - Fitted best score
+2018-02-21 20:37:32,101 - __main__ - INFO - 0.9487526837939091
+2018-02-21 20:37:32,102 - __main__ - INFO - Fitted best params
+2018-02-21 20:37:32,102 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 90, 'anova__k': 15}
+2018-02-21 20:37:32,102 - __main__ - INFO - Fitted best estimator
+2018-02-21 20:37:32,102 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x10ab7c7d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 20:37:32,228 - __main__ - INFO - Test data accuracy
+2018-02-21 20:37:32,229 - __main__ - INFO - 0.8634538152610441
+2018-02-21 20:37:32,229 - __main__ - INFO - Test data ROC
+2018-02-21 20:37:32,230 - __main__ - INFO - 0.8436665694169974
+2018-02-21 20:37:32,230 - __main__ - INFO - Test data confusion matrix
+2018-02-21 20:37:32,234 - __main__ - INFO - [[1428  440]
+ [ 240 2872]]
+2018-02-21 20:37:32,234 - __main__ - INFO - Fitting best score
+2018-02-21 20:38:04,765 - __main__ - INFO - ------------------------------------------------
+2018-02-21 20:38:04,765 - __main__ - INFO - Started building models
+2018-02-21 20:38:06,139 - __main__ - INFO - Fitting best score
+2018-02-21 20:53:42,230 - __main__ - INFO - Fitted best score
+2018-02-21 20:53:42,236 - __main__ - INFO - 0.9559609773756632
+2018-02-21 20:53:42,236 - __main__ - INFO - Fitted best params
+2018-02-21 20:53:42,236 - __main__ - INFO - {'ExtraTreesClassifier__n_estimators': 90, 'anova__k': 14}
+2018-02-21 20:53:42,236 - __main__ - INFO - Fitted best estimator
+2018-02-21 20:53:42,236 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=14, score_func=<function mutual_info_classif at 0x1083887d0>)), ('ExtraTreesClassifier', ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_d...timators=90, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False))])
+2018-02-21 20:53:42,397 - __main__ - INFO - Test data accuracy
+2018-02-21 20:53:42,398 - __main__ - INFO - 0.8652610441767068
+2018-02-21 20:53:42,398 - __main__ - INFO - Test data ROC
+2018-02-21 20:53:42,402 - __main__ - INFO - 0.8434006236823128
+2018-02-21 20:53:42,402 - __main__ - INFO - Test data confusion matrix
+2018-02-21 20:53:42,406 - __main__ - INFO - [[1412  456]
+ [ 215 2897]]
+2018-02-21 20:53:42,406 - __main__ - INFO - Fitting best score
+2018-02-21 21:14:32,488 - __main__ - INFO - Fitted best score
+2018-02-21 21:14:32,489 - __main__ - INFO - 0.9491207940264326
+2018-02-21 21:14:32,489 - __main__ - INFO - Fitted best params
+2018-02-21 21:14:32,489 - __main__ - INFO - {'RandomForestClassifier__n_estimators': 90, 'anova__k': 14}
+2018-02-21 21:14:32,489 - __main__ - INFO - Fitted best estimator
+2018-02-21 21:14:32,490 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=14, score_func=<function mutual_info_classif at 0x1083887d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 21:14:32,678 - __main__ - INFO - Test data accuracy
+2018-02-21 21:14:32,682 - __main__ - INFO - 0.864859437751004
+2018-02-21 21:14:32,682 - __main__ - INFO - Test data ROC
+2018-02-21 21:14:32,733 - __main__ - INFO - 0.8438282699283839
+2018-02-21 21:14:32,733 - __main__ - INFO - Test data confusion matrix
+2018-02-21 21:14:32,738 - __main__ - INFO - [[1419  449]
+ [ 224 2888]]
+2018-02-21 21:14:32,739 - __main__ - INFO - Fitting best score
+2018-02-21 21:31:31,297 - __main__ - INFO - Fitted best score
+2018-02-21 21:31:31,306 - __main__ - INFO - 0.7180407315374544
+2018-02-21 21:31:31,306 - __main__ - INFO - Fitted best params
+2018-02-21 21:31:31,307 - __main__ - INFO - {'anova__k': 15, 'AdaBoostClassifier__n_estimators': 90}
+2018-02-21 21:31:31,307 - __main__ - INFO - Fitted best estimator
+2018-02-21 21:31:31,307 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=15, score_func=<function mutual_info_classif at 0x1083887d0>)), ('AdaBoostClassifier', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=90, random_state=None))])
+2018-02-21 21:31:31,359 - __main__ - INFO - Test data accuracy
+2018-02-21 21:31:31,361 - __main__ - INFO - 0.6216867469879518
+2018-02-21 21:31:31,361 - __main__ - INFO - Test data ROC
+2018-02-21 21:31:31,362 - __main__ - INFO - 0.5458992062225109
+2018-02-21 21:31:31,362 - __main__ - INFO - Test data confusion matrix
+2018-02-21 21:31:31,366 - __main__ - INFO - [[ 453 1415]
+ [ 469 2643]]
+2018-02-21 21:31:31,366 - __main__ - INFO - Fitting best score
+2018-02-21 21:44:35,460 - __main__ - INFO - Fitted best score
+2018-02-21 21:44:35,460 - __main__ - INFO - 0.5253539083283658
+2018-02-21 21:44:35,460 - __main__ - INFO - Fitted best params
+2018-02-21 21:44:35,460 - __main__ - INFO - {'SGDClassifier__penalty': 'l1', 'SGDClassifier__loss': 'hinge', 'anova__k': 14}
+2018-02-21 21:44:35,460 - __main__ - INFO - Fitted best estimator
+2018-02-21 21:44:35,460 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=14, score_func=<function mutual_info_classif at 0x1083887d0>)), ('SGDClassifier', SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_in...='l1', power_t=0.5, random_state=None,
+       shuffle=True, tol=None, verbose=0, warm_start=False))])
+2018-02-21 21:44:35,465 - __main__ - INFO - Test data accuracy
+2018-02-21 21:44:35,467 - __main__ - INFO - 0.626706827309237
+2018-02-21 21:44:35,467 - __main__ - INFO - Test data ROC
+2018-02-21 21:44:35,470 - __main__ - INFO - 0.5032649741554416
+2018-02-21 21:44:35,470 - __main__ - INFO - Test data confusion matrix
+2018-02-21 21:44:35,476 - __main__ - INFO - [[  17 1851]
+ [   8 3104]]
+2018-02-21 21:44:35,476 - __main__ - INFO - Fitting best score
+2018-02-21 21:58:59,921 - __main__ - INFO - Fitted best score
+2018-02-21 21:58:59,921 - __main__ - INFO - 0.7376986207963591
+2018-02-21 21:58:59,921 - __main__ - INFO - Fitted best params
+2018-02-21 21:58:59,921 - __main__ - INFO - {'XGBClassifier__n_estimators': 90, 'anova__k': 9}
+2018-02-21 21:58:59,921 - __main__ - INFO - Fitted best estimator
+2018-02-21 21:58:59,921 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=9, score_func=<function mutual_info_classif at 0x1083887d0>)), ('XGBClassifier', XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gam...
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1))])
+2018-02-21 21:58:59,940 - __main__ - INFO - Test data accuracy
+2018-02-21 21:58:59,942 - __main__ - INFO - 0.6363453815261044
+2018-02-21 21:58:59,943 - __main__ - INFO - Test data ROC
+2018-02-21 21:58:59,944 - __main__ - INFO - 0.5650108304938265
+2018-02-21 21:58:59,944 - __main__ - INFO - Test data confusion matrix
+2018-02-21 21:58:59,948 - __main__ - INFO - [[ 522 1346]
+ [ 465 2647]]
+2018-02-21 21:58:59,948 - __main__ - INFO - Fitting best score
+2018-02-21 23:01:34,513 - __main__ - INFO - Fitted best score
+2018-02-21 23:01:34,522 - __main__ - INFO - 0.7959973318170197
+2018-02-21 23:01:34,523 - __main__ - INFO - Fitted best params
+2018-02-21 23:01:34,523 - __main__ - INFO - {'GradientBoostingClassifier__learning_rate': 0.9000000000000001, 'GradientBoostingClassifier__n_estimators': 90, 'anova__k': 13}
+2018-02-21 23:01:34,523 - __main__ - INFO - Fitted best estimator
+2018-02-21 23:01:34,523 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x1083887d0>)), ('GradientBoostingClassifier', GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learnin...      presort='auto', random_state=None, subsample=1.0, verbose=0,
+              warm_start=False))])
+2018-02-21 23:01:34,534 - __main__ - INFO - Test data accuracy
+2018-02-21 23:01:34,536 - __main__ - INFO - 0.6624497991967871
+2018-02-21 23:01:34,536 - __main__ - INFO - Test data ROC
+2018-02-21 23:01:34,537 - __main__ - INFO - 0.6085812053087309
+2018-02-21 23:01:34,537 - __main__ - INFO - Test data confusion matrix
+2018-02-21 23:01:34,541 - __main__ - INFO - [[ 734 1134]
+ [ 547 2565]]
+2018-02-21 23:01:34,542 - __main__ - INFO - Best model stats
+2018-02-21 23:01:34,542 - __main__ - INFO - ROC 0.843828269928
+2018-02-21 23:01:34,542 - __main__ - INFO - Confusion martix
+2018-02-21 23:01:34,542 - __main__ - INFO - [[1419  449]
+ [ 224 2888]]
+2018-02-21 23:01:34,542 - __main__ - INFO - Model parameter
+2018-02-21 23:01:34,542 - __main__ - INFO - {'RandomForestClassifier__n_estimators': [10, 20, 30, 40, 50, 60, 70, 80, 90], 'anova__k': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+2018-02-21 23:01:34,542 - __main__ - INFO - Pipeline
+2018-02-21 23:01:34,542 - __main__ - INFO - Pipeline(memory=None,
+     steps=[('imputer', Imputer(axis=0, copy=True, missing_values=0, strategy='median', verbose=0)), ('anova', SelectKBest(k=10, score_func=<function mutual_info_classif at 0x1083887d0>)), ('RandomForestClassifier', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            m...n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False))])
+2018-02-21 23:01:34,751 - __main__ - INFO - Finished building models
+2018-02-21 23:01:34,751 - __main__ - INFO - ------------------------------------------------
+2018-02-21 23:01:59,757 - __main__ - INFO - ------------------------------------------------
+2018-02-21 23:01:59,757 - __main__ - INFO - Started building models
+2018-02-21 23:02:01,088 - __main__ - INFO - Fitting best score

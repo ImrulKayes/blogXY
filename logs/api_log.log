@@ -1,0 +1,161 @@
+2017-06-19 16:44:11,995 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:08,975 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:11,244 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:11,244 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:13,668 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:13,668 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:13,668 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:15,700 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:15,700 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:15,700 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-06-19 16:54:15,700 - code.api - INFO - Receied request to predict user vickiecollins, features [['0' '0' '0' '0' '0' '88942' '0' '0' '0' '0' '0' '0' '6' '0' '2160']], predicted Male
+2017-07-03 15:04:43,497 - code.api - INFO - Receied request to predict user http://www.blogster.com/vickiecollins, features [['0' '0' '0' '0' '0' '89130' '0' '0' '0' '0' '0' '0' '6' '0' '2172']], predicted Male
+2017-08-31 16:38:58,913 - code.api - INFO - Receied request to predict user http://www.blogster.com/vickiecollins, features [['0' '0' '0' '0' '0' '89749' '0' '0' '0' '0' '0' '0' '6' '0' '2219']], predicted Male
+2017-09-20 13:07:40,007 - scripts.api - INFO - Receied request to predict user http://www.blogster.com/vickiecollins, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2235.]], predicted Male
+2017-09-20 13:33:27,367 - scripts.api - ERROR - Exception on /user [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/ikayes/Documents/Help/DS/blogs/scripts/api.py", line 44, in post
+    return {'friends': user_friend_data[user_name]}, 201
+KeyError: u'charlie'
+2017-09-25 22:40:03,430 - scripts.api - ERROR - Exception on /user/friends [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask/views.py", line 83, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "/Users/ikayes/Documents/Help/DS/blogs/scripts/api.py", line 43, in __init__
+    @restful.support_cors(max_age=90, allow_headers='content-type, accept')
+NameError: global name 'restful' is not defined
+2017-09-25 22:40:10,911 - scripts.api - ERROR - Exception on /user/friends [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask/views.py", line 83, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "/Users/ikayes/Documents/Help/DS/blogs/scripts/api.py", line 43, in __init__
+    @restful.support_cors(max_age=90, allow_headers='content-type, accept')
+NameError: global name 'restful' is not defined
+2017-09-25 22:40:10,911 - scripts.api - ERROR - Exception on /user/friends [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask/views.py", line 83, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "/Users/ikayes/Documents/Help/DS/blogs/scripts/api.py", line 43, in __init__
+    @restful.support_cors(max_age=90, allow_headers='content-type, accept')
+NameError: global name 'restful' is not defined
+2017-09-26 17:59:44,397 - scripts.api - ERROR - Exception on /user/friends [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/flask_restful/utils/cors.py", line 35, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/usr/local/lib/python2.7/site-packages/flask/helpers.py", line 190, in make_response
+    return current_app.make_response(args)
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 1746, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/wrappers.py", line 847, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/test.py", line 871, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'dict' object is not callable
+2017-10-01 15:51:45,999 - scripts.services.user - INFO - Receied request to predict user handsoftissue, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2244.]], predicted Male
+2017-10-01 15:53:56,230 - scripts.services.user - INFO - Receied request to predict user handsoftissue, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2244.]], predicted Male
+2017-10-27 15:56:12,793 - scripts.services.user - INFO - Receied request to predict user vickiecollins, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:19,830 - scripts.services.user - INFO - Received request to predict user vickiecollins, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:21,354 - scripts.services.user - INFO - Received request to predict user vickiecollins, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:29,314 - scripts.services.user - INFO - Received request to predict user vickiecollinsaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:31,059 - scripts.services.user - INFO - Received request to predict user vickiecollinsaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:35,029 - scripts.services.user - INFO - Received request to predict user vickiecollinsaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:40,343 - scripts.services.user - INFO - Received request to predict user vaaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:42,003 - scripts.services.user - INFO - Received request to predict user vaaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:46,893 - scripts.services.user - INFO - Received request to predict user vaaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-27 16:06:48,194 - scripts.services.user - INFO - Received request to predict user vaaa, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2264.]], predicted Male
+2017-10-30 09:49:39,281 - scripts.services.user - INFO - Shutting down server
+2017-10-30 09:50:52,538 - scripts.services.user - INFO - Shutting down server
+2017-10-30 09:51:03,112 - scripts.services.user - INFO - Shutting down server
+2017-10-30 09:51:11,199 - scripts.services.user - INFO - Shutting down server
+2017-10-30 10:18:09,237 - scripts.services.user - INFO - Shutting down server
+2017-11-03 14:41:27,797 - scripts.services.user - INFO - Received request to predict user SarahRubin, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2270.]], predicted Female
+2017-11-03 14:44:27,219 - scripts.services.user - INFO - Shutting down server
+2017-11-14 10:59:48,711 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:04:24,207 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:18:19,215 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:18:25,726 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:18:45,216 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:47:34,643 - scripts.services.user - INFO - Shutting down server
+2017-11-14 11:47:41,233 - scripts.services.user - INFO - Shutting down server
+2018-01-05 11:55:13,255 - scripts.services.user - INFO - Received request to predict user SarahRubin, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2320.]], predicted Female
+2018-01-05 14:37:44,473 - scripts.services.user - INFO - Shutting down server
+2018-01-05 14:39:12,016 - scripts.services.user - INFO - Shutting down server
+2018-01-05 14:43:06,766 - scripts.services.user - INFO - Shutting down server
+2018-01-05 14:51:58,766 - scripts.services.user - INFO - Shutting down server
+2018-01-05 15:55:03,568 - scripts.services.user - INFO - Shutting down server
+2018-01-05 15:57:01,120 - scripts.services.user - INFO - Received request to predict user SarahRubin, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2320.]], predicted Female
+2018-01-05 15:57:40,925 - scripts.services.user - INFO - Received request to predict user SarahRubin, features [[    0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+      0.     0.     0.     0.  2320.]], predicted Female
+2018-01-05 16:01:20,480 - scripts.services.user - INFO - Shutting down server
+2018-02-20 17:02:10,875 - scripts.services.user - INFO - Shutting down server
+2018-02-20 22:51:37,985 - scripts.services.user - INFO - Shutting down server
+2018-02-20 23:09:19,556 - scripts.services.user - INFO - Shutting down server
+2018-02-20 23:12:38,516 - scripts.services.user - INFO - Shutting down server
+2018-02-20 23:19:18,725 - scripts.services.user - INFO - Shutting down server
+2018-02-20 23:44:25,129 - scripts.services.user - INFO - Shutting down server
+2018-02-20 23:45:07,695 - scripts.services.user - INFO - Shutting down server
+2018-02-21 12:03:45,940 - scripts.services.user - INFO - Shutting down server
+2018-02-21 13:51:25,396 - scripts.services.user - INFO - Shutting down server
+2018-02-21 14:32:47,157 - scripts.services.user - INFO - Shutting down server
+2018-02-21 14:40:39,789 - scripts.services.user - INFO - Shutting down server
+2018-02-21 14:42:33,894 - scripts.services.user - INFO - Shutting down server
+2018-02-21 14:44:49,783 - scripts.services.user - INFO - Shutting down server
+2018-02-21 15:23:27,369 - scripts.services.user - INFO - Shutting down server
+2018-02-21 15:24:53,326 - scripts.services.user - INFO - Shutting down server
+2018-02-21 15:25:01,907 - scripts.services.user - INFO - Shutting down server
+2018-02-22 09:48:50,044 - scripts.flask_api.user - INFO - Shutting down server
+2018-02-22 09:49:13,565 - scripts.flask_api.user - INFO - Shutting down server

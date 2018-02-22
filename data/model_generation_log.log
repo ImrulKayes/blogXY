@@ -1,0 +1,24 @@
+2017-06-19 15:16:02,677 - __main__ - INFO - 0.936485701586
+2017-06-19 15:16:02,677 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-06-19 15:16:02,677 - __main__ - INFO - Pipeline(steps=[('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x10ee530c8>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-06-19 15:16:02,718 - __main__ - INFO - 0.856700232378
+2017-06-19 15:16:02,719 - __main__ - INFO - 0.85089528186
+2017-06-19 15:16:02,724 - __main__ - INFO - [[1613  337]
+ [ 403 2811]]
+2017-06-19 15:24:34,809 - __main__ - INFO - 0.936914641136
+2017-06-19 15:24:34,809 - __main__ - INFO - {'anova__k': 13, 'rf__n_estimators': 10}
+2017-06-19 15:24:34,809 - __main__ - INFO - Pipeline(steps=[('anova', SelectKBest(k=13, score_func=<function mutual_info_classif at 0x1132a40c8>)), ('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False))])
+2017-06-19 15:24:34,852 - __main__ - INFO - 0.848760650658
+2017-06-19 15:24:34,853 - __main__ - INFO - 0.844315255373
+2017-06-19 15:24:34,857 - __main__ - INFO - [[1611  339]
+ [ 442 2772]]
