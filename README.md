@@ -19,10 +19,11 @@ cd blogXY
 ./scripts/bootstrap.sh
 ```
 
-3. Open a terminal, export environment variables and run airflow server
+3. Open a terminal, go export environment variables and run airflow server
 ```
-export FLASK_APP=./scripts/services/user.py;
-export PYTHONPATH=.
+cd blogXY
+export FLASK_APP=$PWD/scripts/flask_api/user.py;
+export PYTHONPATH=$PWD
 export flask_shutdown_user=flask_admin
 export flask_shutdown_password=flask_admin_stop_pass
 ```
@@ -32,7 +33,7 @@ export flask_shutdown_password=flask_admin_stop_pass
 airflow webserver -p 8080
 ```
 
-3. Open another terminal, export environment variables from previous the step and run scheduler
+3. Open another terminal, export environment variables from step 3 and run scheduler
 ```
 airflow scheduler
 ```
